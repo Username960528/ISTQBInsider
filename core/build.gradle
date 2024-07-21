@@ -1,15 +1,15 @@
 plugins {
     id 'java'
-    id "org.sonarqube" version "4.4.1.3373"
-
 }
-android {
-    sourceSets {
-        main {
-            java.srcDirs = ['src/main/java']
+
+sourceSets {
+    main {
+        java {
+            srcDirs = ['src/main/java']
         }
     }
 }
+
 group = 'org.istqbinsider'
 version = '1.0-SNAPSHOT'
 
@@ -22,13 +22,6 @@ dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter'
 }
 
-sonar {
-    properties {
-        property "sonar.projectKey", "Username960528_istqbsimulator"
-        property "sonar.organization", "username960528"
-        property "sonar.host.url", "https://sonarcloud.io"
-    }
-}
 test {
     useJUnitPlatform()
 }
