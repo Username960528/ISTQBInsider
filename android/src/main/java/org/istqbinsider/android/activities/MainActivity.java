@@ -1,6 +1,7 @@
 package org.istqbinsider.android.activities;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -11,6 +12,7 @@ import org.istqbinsider.ui.UI;
 import org.istqbinsider.android.R;
 
 public class MainActivity extends AppCompatActivity {
+    private static final String TAG = "MainActivity";
     private GameController gameController;
     private AndroidUI androidUI;
 
@@ -19,18 +21,21 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        if (savedInstanceState == null) {
-            UI androidUI = new AndroidUI(this);
-            gameController = new GameController(androidUI);
+        UI androidUI = new AndroidUI(this);
+        gameController = new GameController(androidUI);
 
-            Button startSurvivalModeButton = findViewById(R.id.startSurvivalModeButton);
-            startSurvivalModeButton.setOnClickListener(v -> startGameOnNewThread());
+        Button startSurvivalModeButton = findViewById(R.id.startSurvivalModeButton);
+        startSurvivalModeButton.setOnClickListener(v -> {
+            Log.d(TAG, "Start Survival Mode button clicked");
+            startGameOnNewThread(); // Use this instead of gameController.startSurvivalMode();
+        });
 
-            gameController.startGame();
-        }
+        gameController.startGame();
     }
+
     private void startGameOnNewThread() {
         new Thread(() -> {
+            Log.d(TAG, "Starting Survival Mode on new thread");
             gameController.startSurvivalMode();
         }).start();
     }
