@@ -9,5 +9,7 @@ public class MCQApplication {
         UI ui = new ConsoleUI();
         GameController gameController = new GameController(ui);
         gameController.startGame();
+        gameController.startSurvivalMode();
+
     }
 }

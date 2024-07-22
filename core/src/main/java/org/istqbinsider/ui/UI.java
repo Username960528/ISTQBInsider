@@ -10,4 +10,5 @@ public interface UI {
     void showGameOverScreen(int score, int streak);
     void showTimeUpScreen(int score, int streak);
     void showGameCompletedScreen(int score, int streak);
+    void showErrorMessage(String message);
 }

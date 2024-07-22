@@ -2,7 +2,6 @@ package org.istqbinsider.controller;
 
 import org.istqbinsider.model.Question;
 import org.istqbinsider.ui.UI;
-import org.istqbinsider.ui.ConsoleUI; // Add this import
 import org.istqbinsider.util.Timer;
 import org.istqbinsider.util.XMLParser;
 
@@ -20,16 +19,19 @@ public class GameController {
         this.ui = ui;
         xmlParser = new XMLParser();
         questions = xmlParser.parseQuestions("questions.xml");
-//        ui = new ConsoleUI(); // Use ConsoleUI as the default implementation
         timer = new Timer();
     }
 
     public void startGame() {
         ui.showWelcomeScreen();
-        startSurvivalMode();
     }
 
-    private void startSurvivalMode() {
+    public void startSurvivalMode() {
+        if (questions.isEmpty()) {
+            ui.showErrorMessage("No questions available. Please check the questions file.");
+            return;
+        }
+
         score = 0;
         streak = 0;
         timer.start(60); // 60 seconds for survival mode

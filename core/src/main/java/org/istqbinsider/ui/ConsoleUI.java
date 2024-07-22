@@ -56,4 +56,8 @@ public class ConsoleUI implements UI {
         System.out.println("Your final score: " + score);
         System.out.println("Your longest streak: " + streak);
     }
+    @Override
+    public void showErrorMessage(String message) {
+        System.err.println("Error: " + message);
+    }
 }
