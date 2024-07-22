@@ -1,0 +1,4 @@
+<resources>
+    <!-- Example dimension resource -->
+    <dimen name="example_margin">16dp</dimen>
+</resources>

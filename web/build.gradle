@@ -12,3 +12,7 @@ repositories {
 dependencies {
     // Add web-specific dependencies here
 }
+
+test {
+    useJUnitPlatform()
+}
