@@ -18,7 +18,7 @@ public class GameController {
     public GameController(UI ui) {
         this.ui = ui;
         xmlParser = new XMLParser();
-        questions = xmlParser.parseQuestions("questions.xml");
+        questions = xmlParser.parseQuestions("/Users/tribe/IdeaProjects/ISTQBInsider/shared-resourses/questions.xml");
         timer = new Timer();
     }
 

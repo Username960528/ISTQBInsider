@@ -59,4 +59,10 @@ public class WebUI implements UI {
         System.out.println("Your final score: " + score);
         System.out.println("Your longest streak: " + streak);
     }
+
+    @Override
+    public void showErrorMessage(String message) {
+        // Implement web-specific error message display
+        System.err.println("Error: " + message);
+    }
 }

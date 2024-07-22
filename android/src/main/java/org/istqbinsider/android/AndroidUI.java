@@ -9,7 +9,6 @@ import android.widget.TextView;
 import android.widget.Toast;
 import android.view.View;
 import androidx.appcompat.app.AlertDialog;
-import java.util.List;
 
 import java.util.concurrent.CountDownLatch;
 
@@ -17,7 +16,8 @@ public class AndroidUI implements UI {
     private Activity activity;
     private TextView questionTextView;
     private Button[] optionButtons;
-    private Button startButton;
+    private Button startSurvivalModeButton;
+
 
     public AndroidUI(Activity activity) {
         this.activity = activity;
@@ -31,15 +31,18 @@ public class AndroidUI implements UI {
         optionButtons[1] = activity.findViewById(R.id.optionBButton);
         optionButtons[2] = activity.findViewById(R.id.optionCButton);
         optionButtons[3] = activity.findViewById(R.id.optionDButton);
-        startButton = activity.findViewById(R.id.startButton);
+        startSurvivalModeButton = activity.findViewById(R.id.startSurvivalModeButton);
     }
 
     @Override
     public void showWelcomeScreen() {
         activity.runOnUiThread(() -> {
             questionTextView.setText("Welcome to ISTQB Insider!");
-            startButton.setVisibility(View.VISIBLE);
-            startButton.setOnClickListener(v -> {
+            startSurvivalModeButton.setVisibility(View.VISIBLE);
+            for (Button button : optionButtons) {
+                button.setVisibility(View.GONE);
+            }
+            startSurvivalModeButton.setOnClickListener(v -> {
                 // Call startSurvivalMode() in GameController
             });
         });

@@ -19,15 +19,15 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        UI androidUI = new AndroidUI(this);
-        gameController = new GameController(androidUI);
+        if (savedInstanceState == null) {
+            UI androidUI = new AndroidUI(this);
+            gameController = new GameController(androidUI);
 
-        Button startSurvivalModeButton = findViewById(R.id.startSurvivalModeButton);
-        startSurvivalModeButton.setOnClickListener(v -> {
-            gameController.startSurvivalMode();
-        });
+            Button startSurvivalModeButton = findViewById(R.id.startSurvivalModeButton);
+            startSurvivalModeButton.setOnClickListener(v -> startGameOnNewThread());
 
-        gameController.startGame();
+            gameController.startGame();
+        }
     }
     private void startGameOnNewThread() {
         new Thread(() -> {

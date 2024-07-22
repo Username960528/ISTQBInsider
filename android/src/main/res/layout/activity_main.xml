@@ -44,12 +44,7 @@
         android:contentDescription="Option D"
         />
 
-    <Button
-        android:id="@+id/startButton"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Start Survival Mode"
-        android:visibility="gone"/>
+
 
     <Button
         android:id="@+id/startSurvivalModeButton"
