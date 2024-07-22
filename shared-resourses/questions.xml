@@ -1,0 +1,2183 @@
+<question-list>
+    <question>
+        <questionName>Deciding How much testing is enough should take into account:­
+
+i. Level of Risk including Technical and Business product and project risk
+ii.Project constraints such as time and budget
+iii.Size of Testing Team
+iv.Size of the Development Team</questionName>
+
+        <optionA>i,ii are true and iii,iv are false</optionA>
+        <optionB>i,iv are true and ii is false</optionB>
+        <optionC>i,ii,iii are true and iv is false</optionC>
+        <optionD>ii,iii,iv are true and i is false</optionD>
+        <answer>i,ii are true and iii,iv are false</answer>
+        <number>1</number>
+        <image> </image>
+    </question>
+
+    <question>
+        <questionName>A test team consistently finds between 90% and 95% of the defects present in the system under test. While the test manager understands that this is a good defect detection percentage for her test team and industry, senior management and executives remain disappointed in the test group, saying that the test team misses too many bugs. Given that the users are generally happy with the system and that the failures which have occurred have generally been low impact, which of the following testing principles is most likely to help the test manager explain to these managers and executives why some defects are likely to be missed</questionName>
+        <optionA>Exhaustive testing is impossible</optionA>
+
+        <optionB>Pesticide paradox</optionB>
+
+        <optionC>Defect clustering</optionC>
+
+        <optionD>Absence of errors fallacy</optionD>
+
+        <answer>Exhaustive testing is impossible</answer>
+
+        <number>1</number>
+        <image> </image>
+    </question>
+    <question>
+        <questionName>Software testing activities should start:</questionName>
+        <optionA>When the requirements have been formally documented</optionA>
+
+        <optionB>As soon as possible in the development life cycle.</optionB>
+
+        <optionC>During the design stage</optionC>
+
+        <optionD>During the stakeholder meeting</optionD>
+
+        <answer>As soon as possible in the development life cycle.</answer>
+
+        <number>1</number>
+        <image> </image>
+    </question>
+
+
+    <question>
+    <questionName>According to the ISTQB Glossary, the word "bug" is synonymous with which of the following:</questionName>
+
+    <optionA>Error</optionA>
+
+    <optionB>Incident</optionB>
+
+    <optionC>Defect</optionC>
+
+    <optionD>Mistake</optionD>
+
+    <answer>Defect</answer>
+
+    <number>1</number>
+        <image> </image>
+</question>
+
+    <question>
+        <questionName>A company recently purchased a commercial off­ the ­shelf application to automate their bill paying process. They now plan to run an acceptance test again the package prior to putting it into production. Which of the following is their most likely reason for testing?</questionName>
+
+        <optionA>To train the users</optionA>
+
+        <optionB>To gather evidence for a lawsuit</optionB>
+
+        <optionC>To detect bugs in the application</optionC>
+
+        <optionD>To build confidence in the application</optionD>
+
+        <answer>To build confidence in the application</answer>
+
+        <number>1</number>
+        <image> </image>
+    </question>
+
+
+    <question>
+        <questionName>The following statements relate to activities that are part of the fundamental test process.
+
+(i) Evaluating the testability of requirements.
+(ii) Repeating testing activities after changes.
+(iii) Designing the test environment set up.
+(iv) Developing and prioritizing test cases.
+(v) Verifying the environment is set up correctly.
+
+Which statement below is TRUE?</questionName>
+
+        <optionA>(i) and (iii) are part of analysis and design, (ii), (iv) and (v) are part of test implementation and execution.</optionA>
+
+        <optionB>(i) and (ii) are part of analysis and design, (iii), (iv) and (v) are part of test implementation and execution.</optionB>
+
+        <optionC>(i) and (v) are part of analysis and design, (ii), (iii) and (iv) are part of testimplementation and execution.</optionC>
+
+        <optionD>(i) and (iv) are part of analysis and design, (ii), (iii) and (v) are part of test implementation and execution.</optionD>
+
+        <answer>(i) and (iii) are part of analysis and design, (ii), (iv) and (v) are part of test implementation and execution.</answer>
+
+        <number>1</number>
+        <image> </image>
+    </question>
+
+
+    <question>
+        <questionName>Which list of levels of tester independence is in the correct order, starting with the most independent first?</questionName>
+
+        <optionA>Tests designed by the author; tests designed by another member of the development team; tests designed by someone from a different company.</optionA>
+
+        <optionB>Tests designed by someone from a different department within the company; tests designed by the author; tests designed by someone from a different company.</optionB>
+
+        <optionC>Tests designed by someone from a different company; tests designed by someone from a different department within the company; tests designed by another member of the development team.</optionC>
+
+        <optionD>Tests designed by someone from a different department within the company; tests designed by someone from a different company; tests designed by the author.</optionD>
+
+        <answer>Tests designed by someone from a different company; tests designed by someone from a different department within the company; tests designed by another member of the development team.</answer>
+
+        <number>1</number>
+        <image> </image>
+    </question>
+
+
+    <question>
+        <questionName>Which of the following are aids to good communication and which hinder it?
+
+(i) Try to understand how the other person feels.
+(ii) Communicate personal feelings, concentrating upon individuals.
+(iii) Confirm the other person has understood what you have said and vice versa.
+(iv) Emphasize the common goal of better quality.
+(v) Each discussion is a battle to be won.</questionName>
+
+        <optionA>(i), (ii) and (iii) aid, (iv) and (v) hinder.</optionA>
+
+        <optionB>(iii), (iv) and (v) aid, (i) and (ii) hinder.</optionB>
+
+        <optionC>(i), (iii) and (iv) aid, (ii) and (v) hinder.</optionC>
+
+        <optionD>(ii), (iii) and (iv) aid, (i) and (v) hinder.</optionD>
+
+        <answer>(i), (iii) and (iv) aid, (ii) and (v) hinder.</answer>
+
+        <number>1</number>
+        <image> </image>
+    </question>
+
+
+    <question>
+        <questionName>According to the ISTQB Glossary, a risk relates to which of the following?</questionName>
+
+        <optionA>Negative consequences that could occur.</optionA>
+
+        <optionB>Negative consequences that will occur.</optionB>
+
+        <optionC>Negative consequences for the test object.</optionC>
+
+        <optionD>Negative consequences that have occurred.</optionD>
+
+        <answer>Negative consequences that could occur.</answer>
+
+        <number>1</number>
+        <image> </image>
+    </question>
+
+
+    <question>
+        <questionName>Which of the following is a fundamental test activity?</questionName>
+
+        <optionA>Test Planning and design</optionA>
+
+        <optionB>Test Implementation and Execution</optionB>
+
+        <optionC>Evaluating Entry criteria and reporting</optionC>
+
+        <optionD>Test design and Implementation</optionD>
+
+        <answer>Test Implementation and Execution</answer>
+
+        <number>1</number>
+        <image> </image>
+    </question>
+
+
+    <question>
+        <questionName>Debugging is:</questionName>
+
+        <optionA>Checking that no unintended consequences have occurred as a result of a fix.</optionA>
+
+        <optionB>Testing/checking whether the software performs correctly.</optionB>
+
+        <optionC>Identifying the cause of a defect, repairing the code and checking the fix is correct.</optionC>
+
+        <optionD>Checking that a previously reported defect has been corrected.</optionD>
+
+        <answer>Identifying the cause of a defect, repairing the code and checking the fix is correct.</answer>
+
+        <number>1</number>
+        <image> </image>
+    </question>
+
+
+    <question>
+        <questionName>What is a test condition?</questionName>
+
+        <optionA>A condition or capability needed by a user to solve a problem or achieve an objective that must be met or possessed by a system or system component to satisfy a contract, standard, specification, or other formally imposed document</optionA>
+
+        <optionB>An item or event of a component or system that could be verified by one or more test</optionB>
+
+        <optionC>An approach to testing in which test cases are designed based on test objectives and test conditions derived from requirements.</optionC>
+
+        <optionD>A set of input values, execution preconditions, expected results and execution post conditions.</optionD>
+
+        <answer>An item or event of a component or system that could be verified by one or more test</answer>
+
+        <number>1</number>
+        <image> </image>
+    </question>
+
+
+    <question>
+        <questionName>When is testing complete?</questionName>
+
+        <optionA>When there is enough information for sponsors to make an informed decision about release.</optionA>
+
+        <optionB>When time and budget are exhausted.</optionB>
+
+        <optionC>When there are no remaining high priority defects outstanding.</optionC>
+
+        <optionD>When every data combination has been exercised successfully.</optionD>
+
+        <answer>When there is enough information for sponsors to make an informed decision about release.</answer>
+
+        <number>1</number>
+        <image> </image>
+    </question>
+
+    <question>
+        <questionName>The quality and effectiveness of software testing are primarily determined by the quality of the test processes used is stated in:</questionName>
+
+        <optionA>Bill hetzel principle</optionA>
+
+        <optionB>Ed Kit principle</optionB>
+
+        <optionC>IEEE 829</optionC>
+
+        <optionD>IEEE 8295</optionD>
+
+        <answer>Ed Kit principle</answer>
+
+        <number>1</number>
+        <image> </image>
+    </question>
+
+
+    <question>
+        <questionName>A programmer is working on code which is very complex. Which of the following is a general testing principle that may affect his work?</questionName>
+
+        <optionA>Defect clustering</optionA>
+
+        <optionB>Pesticide Paradox</optionB>
+
+        <optionC>Exhaustive testing is impossible</optionC>
+
+        <optionD>Absence of errors fallacy</optionD>
+
+        <answer>Defect clustering</answer>
+
+        <number>1</number>
+        <image> </image>
+    </question>
+
+
+    <question>
+        <questionName>A phone ringing in an adjacent cubicle momentarily distracts a programmer, causing him to improperly program the logic that checks the upper boundary of an input variable.Later, during system testing, a tester notices that this variable accepts input values.The improperly coded logic for the upper boundary check is:</questionName>
+
+
+        <optionA>The error</optionA>
+
+        <optionB>The defect</optionB>
+
+        <optionC>The root cause</optionC>
+
+        <optionD>The Failure</optionD>
+
+        <answer>The defect</answer>
+
+        <number>1</number>
+        <image> </image>
+    </question>
+    <question>
+        <questionName>Which of the following is not decided in the test planning phase?</questionName>
+        <optionA>Types of test cases</optionA>
+        <optionB>Hardware and software</optionB>
+        <optionC>Entry and exit criteria</optionC>
+        <optionD>Schedules and deliverables</optionD>
+        <answer>Types of test cases</answer>
+        <number>1</number>
+        <image> </image>
+    </question>
+    <question>
+        <questionName>The success of testing is not influenced by the Psychological factor:</questionName>
+        <optionA>Gaining confidence about the level of quality and providing information</optionA>
+        <optionB>Clear test objectives determine testers effectiveness</optionB>
+        <optionC>blindness to one's own errors</optionC>
+        <optionD>courteous communication and feedback on defects</optionD>
+        <answer>Gaining confidence about the level of quality and providing information</answer>
+        <number>1</number>
+        <image> </image>
+    </question>
+    <question>
+        <questionName>Which of the following is not a quality characteristic listed in ISO 9126 Standard?</questionName>
+        <optionA>Supportability</optionA>
+        <optionB>Maintainability</optionB>
+        <optionC>Usability</optionC>
+        <optionD>Functionality</optionD>
+        <answer>Supportability</answer>
+        <number>1</number>
+        <image> </image>
+    </question>
+    <question>
+        <questionName>Evaluating testability of the requirements and system are a part of which phase:</questionName>
+        <optionA>Test Analysis and Design</optionA>
+        <optionB>Test Planning and control</optionB>
+        <optionC>Test Implementation and execution</optionC>
+        <optionD>Evaluating exit criteria and reporting</optionD>
+        <answer>Test Analysis and Design</answer>
+        <number>1</number>
+        <image> </image>
+    </question>
+    <question>
+        <questionName>Component Testing is also called as :
+
+i.Unit Testing
+ii. Program Testing
+iii. Module Testing
+iv. System Component Testing</questionName>
+
+        <optionA>i,ii,iii are true and iv is false</optionA>
+        <optionB>i,ii,iii,iv are false</optionB>
+        <optionC>i,ii,iv are true and iii is false</optionC>
+        <optionD>all of above is true </optionD>
+        <answer>i,ii,iii are true and iv is false</answer>
+        <number>2</number>
+        <image> </image>
+    </question>
+
+    <question>
+        <questionName>Regression testing should be performed
+
+v) every week
+w) after the software has changed
+x) as often as possible
+y) when the environment has changed
+z) when the project manager says</questionName>
+
+        <optionA> v and w are true, x and z are false </optionA>
+        <optionB> w, x and y are true, v and z are false </optionB>
+        <optionC> w is true, v, x y and z are false </optionC>
+        <optionD> w and y are true, v, x and z are false </optionD>
+        <answer> w and y are true, v, x and z are false </answer>
+        <number>2</number>
+        <image> </image>
+    </question>
+
+    <question>
+        <questionName>The main focus of acceptance testing is:</questionName>
+
+        <optionA> finding faults in the system </optionA>
+        <optionB> ensuring that the system is acceptable to all users </optionB>
+        <optionC> testing by an independent test team </optionC>
+        <optionD> testing for a business perspective </optionD>
+        <answer>  testing for a business perspective </answer>
+        <number>2</number>
+        <image> </image>
+    </question>
+
+    <question>
+        <questionName>Which of the following is a test type?</questionName>
+
+        <optionA> Component testing </optionA>
+        <optionB> Functional testing </optionB>
+        <optionC> Acceptance testing </optionC>
+        <optionD> System testing </optionD>
+        <answer> Functional testing </answer>
+        <number>2</number>
+        <image> </image>
+    </question>
+
+    <question>
+        <questionName>Which option best describes objectives for test levels with a life cycle model?</questionName>
+
+        <optionA>Objectives are dependent on development model for each test level. </optionA>
+        <optionB> Objectives should be generic for all test level. </optionB>
+        <optionC> The objectives of a test level don't need to be defined in advance </optionC>
+        <optionD> Each level has objectives specific to that level </optionD>
+        <answer> Each level has objectives specific to that level </answer>
+        <number>2</number>
+        <image> </image>
+    </question>
+
+    <question>
+        <questionName> Contract and regulation testing is a part of: </questionName>
+
+        <optionA> System testing </optionA>
+        <optionB> Acceptance testing </optionB>
+        <optionC> Integration testing </optionC>
+        <optionD> Functional testing </optionD>
+        <answer>  Acceptance testing </answer>
+        <number>2</number>
+        <image> </image>
+    </question>
+
+    <question>
+        <questionName> Which of the following is a true statement regarding the process of fixing emergency changes?</questionName>
+
+        <optionA> There is no time to test the change before it goes live, so only the best developers should do this work and should not involve testers as they slow down the process. </optionA>
+        <optionB> Only retest of the defect actually fixed. </optionB>
+        <optionC> Retest the changed area and then use risk assessment to decide on a reasonable subset of the whole regression test to run in case other parts of the system have been adversely affected.</optionC>
+        <optionD> Always run a full regression test of the whole system in case other parts of the system have been adversely affected </optionD>
+        <answer> Retest the changed area and then use risk assessment to decide on a reasonable subset of the whole regression test to run in case other parts of the system have been adversely affected.</answer>
+        <number>2</number>
+        <image> </image>
+    </question>
+
+    <question>
+        <questionName>Which of the following is correct?</questionName>
+
+        <optionA> Impact analysis assesses the effect on the system of a defect found in regression testing. </optionA>
+        <optionB> Impact analysis assesses the effect of a new person joining the regression test team. </optionB>
+        <optionC> Impact analysis assesses whether or not a defect found in regression testing has been fixed correctly </optionC>
+        <optionD> Impact analysis assesses the effect of a change to the system to determine how much regression testing to do </optionD>
+        <answer> Impact analysis assesses the effect of a change to the system to determine how much regression testing to do </answer>
+        <number>2</number>
+        <image> </image>
+    </question>
+
+    <question>
+        <questionName>Integration testing where no incremental testing takes place prior to all the system’s components being combined to form the system.</questionName>
+        <optionA> Incremental Testing </optionA>
+        <optionB> Decremental Testing </optionB>
+        <optionC> Big bang Testing </optionC>
+        <optionD> System testing </optionD>
+        <answer> Big bang Testing </answer>
+        <number>2</number>
+        <image> </image>
+    </question>
+
+    <question>
+        <questionName>To test a function, the programmer has to write a ______, which calls the function and passes it test data</questionName>
+
+        <optionA> Stub </optionA>
+        <optionB> Driver </optionB>
+        <optionC> Proxy </optionC>
+        <optionD> None of the above </optionD>
+        <answer> Driver </answer>
+        <number>2</number>
+        <image> </image>
+    </question>
+
+    <question>
+        <questionName> Which of the following statements about component testing is not TRUE </questionName>
+
+        <optionA>Component testing should be performed by development </optionA>
+        <optionB>Component testing is also known as isolation or module testing </optionB>
+        <optionC>Component testing should have completion criteria planned </optionC>
+        <optionD>Component testing does not involve regression testing </optionD>
+        <answer>Component testing does not involve regression testing </answer>
+        <number>2</number>
+        <image> </image>
+    </question>
+
+    <question>
+        <questionName>Integration testing has following characteristics:
+
+I. It can be done in incremental manner
+II. It is always done after system testing
+III. It includes functional tests
+IV. It includes non-functional tests</questionName>
+
+        <optionA> I, II and III are correct </optionA>
+        <optionB> I is correct </optionB>
+        <optionC> I, III and IV are correct </optionC>
+        <optionD> I, II and IV are correct </optionD>
+        <answer> I, III and IV are correct </answer>
+        <number>2</number>
+        <image> </image>
+    </question>
+
+    <question>
+        <questionName>The _______ testing should include operational tests of the new environment as well as of the changed software</questionName>
+
+        <optionA> Component testing </optionA>
+        <optionB> Integration testing </optionB>
+        <optionC> Functional testing </optionC>
+        <optionD> Maintenance testing </optionD>
+        <answer> Maintenance testing </answer>
+        <number>2</number>
+        <image> </image>
+    </question>
+
+    <question>
+        <questionName>____ is also known as Factory acceptance testing.</questionName>
+
+        <optionA> Alpha testing </optionA>
+        <optionB> Beta testing </optionB>
+        <optionC> Compliance testing </optionC>
+        <optionD> Compatibility testing </optionD>
+        <answer> Alpha testing </answer>
+        <number>2</number>
+        <image> </image>
+    </question>
+
+    <question>
+        <questionName>________ is confirmation by examination and through provision of objective evidence that specified requirements have been fulfilled.</questionName>
+
+        <optionA> verification </optionA>
+        <optionB> validation </optionB>
+        <optionC> Confirmation testing </optionC>
+        <optionD> Regression testing </optionD>
+        <answer> verification </answer>
+        <number>2</number>
+        <image> </image>
+    </question>
+
+    <question>
+        <questionName>_____ is confirmation by examination and through provision of objective evidence that the requirements for a specific intended use or application have been fulfilled.</questionName>
+
+        <optionA> Verification </optionA>
+        <optionB> Validation </optionB>
+        <optionC> Regression testing </optionC>
+        <optionD>Confirmation testing </optionD>
+        <answer> Validation </answer>
+        <number>2</number>
+        <image> </image>
+    </question>
+
+    <question>
+        <questionName>_________ is an international standard for software lifecycle processes.</questionName>
+
+        <optionA> ISO 9000 </optionA>
+        <optionB> IEEE 829 </optionB>
+        <optionC> ISO/IEC 12208 </optionC>
+        <optionD> ISO/IEC 12207 </optionD>
+        <answer> ISO/IEC 12207 </answer>
+        <number>2</number>
+        <image> </image>
+    </question>
+
+
+    <question>
+        <questionName>White Box Testing is:</questionName>
+
+        <optionA> Same as glass box testing </optionA>
+        <optionB> Same as clear box testing </optionB>
+        <optionC>Both A and B</optionC>
+        <optionD> None of the above. </optionD>
+        <answer>Both A and B</answer>
+        <number>2</number>
+        <image> </image>
+    </question>
+
+    <question>
+        <questionName>Independent Verification and Validation is:</questionName>
+
+        <optionA> Done by the Developer </optionA>
+        <optionB> Done by the Test Engineer's </optionB>
+        <optionC> Done By Management </optionC>
+        <optionD> Done by an Entity Outside the Project’s sphere of influence </optionD>
+        <answer> Done by an Entity Outside the Project’s sphere of influence </answer>
+        <number>2</number>
+        <image> </image>
+    </question>
+
+    <question>
+        <questionName>Maintenance testing is triggered by:
+
+1.Modification of system
+2.Migration of system
+3.Retirement of system</questionName>
+
+        <optionA> 1,2,3 are true </optionA>
+        <optionB> 1,2 are true and 3 is false </optionB>
+        <optionC> 2,3 are true and 1 s False</optionC>
+        <optionD> None of the above</optionD>
+        <answer> 1,2,3 are true </answer>
+        <number>2</number>
+        <image> </image>
+    </question>
+
+    <question>
+        <questionName>Calculate the cyclomatic complexity of the control flow diagram below:</questionName>
+
+        <optionA>3</optionA>
+        <optionB>4</optionB>
+        <optionC>5</optionC>
+        <optionD>6</optionD>
+        <answer>4</answer>
+        <number>3</number>
+        <image>image_one</image>
+    </question>
+
+    <question>
+        <questionName>i = 0;
+n=4;
+while (i &lt; n-1) do
+j = i + 1;
+while (j &lt; n) do
+if A[i] &lt; A[j] then
+swap(A[i] , A[j]);
+end do;
+i=i+1;
+end do;
+
+McCabe’s Cyclomatic Complexity is :</questionName>
+
+        <optionA>2</optionA>
+        <optionB>3</optionB>
+        <optionC>4</optionC>
+        <optionD>5</optionD>
+        <answer>4</answer>
+        <number>3</number>
+        <image> </image>
+    </question>
+
+    <question>
+        <questionName>The principle of Cyclomatic complexity, considering L as edges or links, N as nodes, P as independent paths</questionName>
+
+        <optionA>L-N +2P</optionA>
+        <optionB>N-L +2P</optionB>
+        <optionC>N-L +2</optionC>
+        <optionD>N-L +1</optionD>
+        <answer>L-N +2P</answer>
+        <number>3</number>
+        <image> </image>
+    </question>
+
+    <question>
+        <questionName>What is the main purpose of Informal review?</questionName>
+
+        <optionA>Find defects. </optionA>
+        <optionB>Inexpensive way to get some benefit. </optionB>
+        <optionC>Learning, gaining understanding, effect finding. </optionC>
+        <optionD> Discuss, make decisions, solve technical problems.</optionD>
+        <answer>Inexpensive way to get some benefit. </answer>
+        <number>3</number>
+        <image> </image>
+    </question>
+
+    <question>
+        <questionName>The Phases of formal review process is mentioned below arrange them in the correct order.
+
+i. Planning
+ii. Review Meeting
+iii. Rework
+iv. Individual Preparations
+v. Kick Off
+vi. Follow Up</questionName>
+
+        <optionA>i,ii,iii,iv,v,vi</optionA>
+        <optionB>vi,i,ii,iii,iv,v</optionB>
+        <optionC>i,v,iv,ii,iii,vi</optionC>
+        <optionD>i,ii,iii,v,iv,vi</optionD>
+        <answer>i,v,iv,ii,iii,vi</answer>
+        <number>3</number>
+        <image> </image>
+    </question>
+
+    <question>
+        <questionName>Which expression best matches the following characteristics or review processes:
+
+1. Led by author
+2. Undocumented
+3. No management participation
+4. Led by a trained moderator or leader
+5. Uses entry exit criteria
+
+s) Inspection
+t) Peer review
+u) Informal review
+v) Walkthrough</questionName>
+
+        <optionA>s = 4, t = 3, u = 2 and 5, v = 1</optionA>
+        <optionB>s = 4 and 5, t = 3, u = 2, v = 1</optionB>
+        <optionC>s = 1 and 5, t = 3, u = 2, v = 4</optionC>
+        <optionD>s = 5, t = 4, u = 3, v = 1 and 2</optionD>
+        <answer>s = 4 and 5, t = 3, u = 2, v = 1</answer>
+        <number>3</number>
+        <image> </image>
+    </question>
+
+    <question>
+        <questionName>Success Factors for a review include:
+
+i. Each Review does not have a predefined objective
+ii. Defects found are welcomed and expressed objectively
+iii. Management supports a good review process.
+iv. There is an emphasis on learning and process improvement.</questionName>
+        <optionA>ii,iii,iv are correct and i is incorrect</optionA>
+        <optionB> iii , i , iv is correct and ii is incorrect</optionB>
+        <optionC>i , iii , iv , ii is in correct</optionC>
+        <optionD>ii is correct</optionD>
+        <answer>ii,iii,iv are correct and i is incorrect</answer>
+        <number>3</number>
+        <image> </image>
+    </question>
+
+    <question>
+        <questionName>What can static analysis NOT find?</questionName>
+
+
+        <optionA>The use of a variable before it has been defined</optionA>
+        <optionB>Unreachable ("dead") code</optionB>
+        <optionC>Memory leaks</optionC>
+        <optionD>Array bound violations</optionD>
+        <answer>Memory leaks</answer>
+        <number>3</number>
+        <image> </image>
+    </question>
+
+
+    <question>
+        <questionName>A formal assessment of a work product conducted by one or more qualified independent reviewer to detect defects.</questionName>
+
+        <optionA>Walkthrough</optionA>
+        <optionB>Inspection</optionB>
+        <optionC>Review</optionC>
+        <optionD>Non-conformance</optionD>
+        <answer>Inspection</answer>
+        <number>3</number>
+        <image> </image>
+    </question>
+
+    <question>
+        <questionName>Who should have technical and Business background in reviews?</questionName>
+
+        <optionA>Reviewers</optionA>
+        <optionB>Moderator</optionB>
+        <optionC>Author</optionC>
+        <optionD>Scribe</optionD>
+        <answer>Reviewers</answer>
+        <number>3</number>
+        <image> </image>
+    </question>
+
+    <question>
+        <questionName>Who is responsible for documenting all the issues, problems and open point that were identified during the review meeting?</questionName>
+
+        <optionA>Reviewers</optionA>
+        <optionB> Moderator</optionB>
+        <optionC>Author</optionC>
+        <optionD>Scribe</optionD>
+        <answer>Scribe</answer>
+        <number>3</number>
+        <image> </image>
+    </question>
+
+    <question>
+        <questionName>The Planning phase of a formal review includes the following:</questionName>
+
+        <optionA>Explaining the objectives</optionA>
+        <optionB>Selecting the personnel, allocating roles</optionB>
+        <optionC>Follow up</optionC>
+        <optionD>Individual Meeting preparations</optionD>
+        <answer>Selecting the personnel, allocating roles</answer>
+        <number>3</number>
+        <image> </image>
+    </question>
+
+    <question>
+        <questionName>Reviewers are also called as:</questionName>
+
+        <optionA>checkers</optionA>
+        <optionB>Inspectors</optionB>
+        <optionC>Recorder</optionC>
+        <optionD>Both a and b is true</optionD>
+        <answer>Both a and b is true</answer>
+        <number>3</number>
+        <image> </image>
+    </question>
+
+    <question>
+        <questionName>A peer review that relies on visual examination of documents to detect defects</questionName>
+
+        <optionA>Technical Review</optionA>
+        <optionB>Inspection</optionB>
+        <optionC>Walkthrough</optionC>
+        <optionD>Formal Review</optionD>
+        <answer>Inspection</answer>
+        <number>3</number>
+        <image> </image>
+    </question>
+
+    <question>
+        <questionName>The Kick Off phase of a formal review includes the following:</questionName>
+
+        <optionA>Explaining the objective</optionA>
+        <optionB>Individual Meeting preparations</optionB>
+        <optionC>Fixing defects found typically done by author</optionC>
+        <optionD>Follow up</optionD>
+        <answer>Explaining the objective</answer>
+        <number>3</number>
+        <image> </image>
+    </question>
+
+    <question>
+        <questionName>Defects discovered by static analysis tools include:
+
+i. Variables that are never used.
+ii. Security vulnerabilities.
+iii. Programming Standard Violations.
+iv. Uncalled functions and procedures.</questionName>
+
+        <optionA>i , ii,iii,iv is correct</optionA>
+        <optionB>iii ,is correct I,ii,iv are incorrect.</optionB>
+        <optionC>i ,ii, iii is correct and iv is incorrect </optionC>
+        <optionD>iv, ii is correct </optionD>
+        <answer>i , ii,iii,iv is correct</answer>
+        <number>3</number>
+        <image> </image>
+    </question>
+
+    <question>
+        <questionName>Who decides which part of the document has to be reviewed?</questionName>
+
+        <optionA>Moderator</optionA>
+        <optionB>Author</optionB>
+        <optionC>Moderator and Author together</optionC>
+        <optionD>Manager</optionD>
+        <answer>Moderator and Author together</answer>
+        <number>3</number>
+        <image> </image>
+    </question>
+
+    <question>
+        <questionName>Which of the following activities differentiate a walkthrough from a formal review?</questionName>
+
+        <optionA>A walkthrough does not follow a defined process</optionA>
+        <optionB>For a walkthrough individual preparation by the reviewers is optional</optionB>
+        <optionC>A walkthrough requires meeting</optionC>
+        <optionD>A walkthrough finds the causes of failures, while formal review finds the failures</optionD>
+        <answer>For a walkthrough individual preparation by the reviewers is optional</answer>
+        <number>3</number>
+        <image> </image>
+    </question>
+
+
+    <question>
+        <questionName>Which of the following is FALSE?</questionName>
+
+        <optionA>Dynamic testing and static testing are complementary and find different defects</optionA>
+        <optionB>Reviews are proven to be far more effective with trained participants </optionB>
+        <optionC> Spelling mistakes in are recorded in the reviews but are not discussed.</optionC>
+        <optionD> Static analysis is done after formal review</optionD>
+        <answer>Static analysis is done after formal review</answer>
+        <number>3</number>
+        <image> </image>
+    </question>
+
+    <question>
+        <questionName>Which one of the following examples describes a typical benefit of static analysis supported by tools?</questionName>
+
+        <optionA>Static analysis supported by tools may find defects prior to manual test execution.</optionA>
+        <optionB>By using static analysis tools user acceptance testing can be shortened because the users need to execute less tests.</optionB>
+        <optionC>Static analysis supported by tools prevents business analysts and requirement engineers building software models (e.g. state transition diagrams), which do not match the requirements</optionC>
+        <optionD>By performing static analysis of the code supported by tools the need for the developers doing unit testing is decreased.</optionD>
+        <answer>Static analysis supported by tools may find defects prior to manual test execution.</answer>
+        <number>3</number>
+        <image> </image>
+    </question>
+
+    <question>
+        <questionName>Which of the following statements is NOT correct?</questionName>
+        <optionA> A minimal test set that achieves 100% LCSAJ coverage will also achieve 100% branch coverage.</optionA>
+        <optionB>A minimal test set that achieves 100% path coverage will also achieve 100% statement coverage. </optionB>
+        <optionC>A minimal test set that achieves 100% path coverage will generally detect more faults than one that
+achieves 100% statement coverage.
+        </optionC>
+        <optionD> A minimal test set that achieves 100% statement coverage will generally detect more faults than one
+that achieves 100% path coverage.
+        </optionD>
+        <answer>A minimal test set that achieves 100% statement coverage will generally detect more faults than one
+that achieves 100% path coverage.
+        </answer>
+        <number>4</number>
+        <image> </image>
+    </question>
+
+    <question>
+        <questionName>Testing throughout the project in a 3 dimensional sense refers to the following dimensions</questionName>
+
+        <optionA> Verification, validation and defect reporting</optionA>
+        <optionB>Time, resources and risk </optionB>
+        <optionC> Time, organizational and cultural</optionC>
+        <optionD>None of the above </optionD>
+        <answer>Time, resources and risk </answer>
+        <number>4</number>
+        <image> </image>
+    </question>
+
+    <question>
+        <questionName>Code coverage is used as a measure of:</questionName>
+
+        <optionA> defects</optionA>
+        <optionB>trends analysis</optionB>
+        <optionC>test effectiveness</optionC>
+        <optionD>time spent on testing</optionD>
+        <answer>test effectiveness</answer>
+        <number>4</number>
+        <image> </image>
+    </question>
+
+    <question>
+        <questionName>Which testing technique do you prefer in the following situations?
+
+1. Severe time pressure
+2. inadequate specification</questionName>
+
+        <optionA>decision testing</optionA>
+        <optionB>error guessing</optionB>
+        <optionC>statement testing</optionC>
+        <optionD>exploratory testing</optionD>
+        <answer>exploratory testing</answer>
+        <number>4</number>
+        <image> </image>
+    </question>
+
+    <question>
+        <questionName>One of the test goals for the project is to have 100% decision coverage. The following three tests have
+been executed for the control flow graph shown below.
+
+Test A covers path: A, B, D, E, G.
+Test B covers path: A, B, D, E, F, G.
+Test C covers path: A, C, F, C, F, C, F, G</questionName>
+
+        <optionA>Decision D has not been tested completely</optionA>
+        <optionB>100% decision coverage has been achieved.</optionB>
+        <optionC> Decision E has not been tested completely.</optionC>
+        <optionD>Decision F has not been tested completely.</optionD>
+        <answer>Decision D has not been tested completely</answer>
+        <number>4</number>
+        <image>image_nine</image>
+    </question>
+
+    <question>
+        <questionName>Exclusive use of white box testing in a test phase will:</questionName>
+
+        <optionA>ensure the test item is adequately tested </optionA>
+        <optionB>run the risk that requirements are not satisfied</optionB>
+        <optionC>make the need for blackbox testing redundant</optionC>
+        <optionD>suffices for the unit testing phase</optionD>
+        <answer>run the risk that requirements are not satisfied</answer>
+        <number>4</number>
+        <image> </image>
+    </question>
+
+    <question>
+        <questionName>Analyze the following procedure:
+
+Ask:What type of ticket do you require, single or return?
+IF the customer wants 'return'
+Ask : What rate, Standard or cheap day?
+IF the customer replies 'Cheap day'
+Say: That will be $11.20
+ELSE
+Say : That will be $ 19.50 END IF
+ELSE
+Say: That will be $ 8.20
+END IF
+
+Now decide the number of minimum tests that are needed to ensure that all questions have been asked,
+all combinations have occurred and all replies given.</questionName>
+
+        <optionA>5</optionA>
+        <optionB>4</optionB>
+        <optionC>6</optionC>
+        <optionD>3</optionD>
+        <answer>3</answer>
+        <number>4</number>
+        <image> </image>
+    </question>
+
+    <question>
+        <questionName>A system under development contains complex calculations and decision logic, and it is assessed as high risk because of the relative inexperience of the development team in the application domain. Which of the following would be the MOST appropriate choice of test design technique for component testing?</questionName>
+
+        <optionA>Decision testing.</optionA>
+        <optionB>Statement testing</optionB>
+        <optionC>State transition testing</optionC>
+        <optionD>Equivalence partitioning</optionD>
+        <answer>Decision testing.</answer>
+        <number>4</number>
+        <image> </image>
+    </question>
+
+    <question>
+        <questionName>Pair the correct test design techniques (i to v) with the category of techniques (x, y and z):
+
+i. Exploratory Testing
+ii. Equivalence Partitioning
+iii. Decision Testing
+iv. Use Case Testing
+
+v. Condition coverage
+x. Specification based
+y. Structure based
+z. Experienced based</questionName>
+
+        <optionA>x = i and ii, y = iii and v, z = iv</optionA>
+        <optionB>x = i, ii and iv, y = v , z = iii</optionB>
+        <optionC>x = ii and iv, y = iii and v, z =i</optionC>
+        <optionD>x = iii and iv, y = v, z = i and ii</optionD>
+        <answer>x = ii and iv, y = iii and v, z =i</answer>
+        <number>4</number>
+        <image> </image>
+    </question>
+
+
+    <question>
+        <questionName>Determine statement coverage and decision coverage for the following:
+
+Pick up and read the newspaper
+Look at what is on television
+If there is a program that you are interested in watching then switch the the television on and watch the
+program
+Otherwise,
+Continue reading the newspaper
+
+If there is a crossword in the newspaper then try and complete the crossword</questionName>
+
+        <optionA>SC = 1 and DC = 1</optionA>
+        <optionB>SC = 1 and DC = 3</optionB>
+        <optionC>SC = 1 and DC = 2</optionC>
+        <optionD>SC = 2 and DC = 3</optionD>
+        <answer>SC = 2 and DC = 3</answer>
+        <number>4</number>
+        <image> </image>
+    </question>
+
+    <question>
+        <questionName>Which two of the following are attributes of structural testing?
+
+a. It is based on testing features described in a functional specification.
+b. It can include statement and decision testing.
+c. It can be carried out at all levels of testing.
+d. It can include debugging.</questionName>
+
+        <optionA>a and b</optionA>
+        <optionB>a and d</optionB>
+        <optionC>d and b</optionC>
+        <optionD>b and c</optionD>
+        <answer>b and c</answer>
+        <number>4</number>
+        <image> </image>
+    </question>
+
+    <question>
+        <questionName>What does it mean if a set of tests has achieved 90% statement coverage?</questionName>
+
+        <optionA>9 out of 10 decision outcomes have been exercised by this set of tests</optionA>
+        <optionB>9 out of 10 statements have been exercised by this set of tests</optionB>
+        <optionC>9 out of 10 tests have been run on this set of software</optionC>
+        <optionD>9 out of 10 requirements statements about the software are correct</optionD>
+        <answer>9 out of 10 statements have been exercised by this set of tests</answer>
+        <number>4</number>
+        <image> </image>
+    </question>
+
+    <question>
+        <questionName>If you are flying with an economy ticket, there is a possibility that you may get upgraded to business class, especially if you hold a gold card in the airline's frequent flier program. If you don't hold a gold card, there is a possibility that you will get 'bumped' off the flight if it is full and you check in late. This is shown in Figure below
+
+Note that each box (i.e. statement) has been numbered.
+
+Three tests have been run:
+Test 1: Gold card holder who gets upgraded to business class
+Test 2: Non gold card holder who stays in economy
+Test 3: A person who is bumped from the flight
+
+What is the statement coverage of these three tests?</questionName>
+
+        <optionA>60%</optionA>
+        <optionB>70%</optionB>
+        <optionC>80%</optionC>
+        <optionD>90%</optionD>
+        <answer>80%</answer>
+        <number>4</number>
+        <image>image_ten</image>
+    </question>
+
+    <question>
+        <questionName>Considering the question with the flight check in flow diagram. What additional tests would be needed to achieve 100% decision coverage?
+
+Three tests have been run:
+Test 1: Gold card holder who gets upgraded to business class
+Test 2: Non-gold card holder who stays in economy
+Test 3: A person who is bumped from the flight</questionName>
+
+        <optionA>A gold card holder who stays in economy and a non gold card holder who gets upgraded to business class</optionA>
+        <optionB>A gold card holder and a non gold card holder who are both upgraded to business class.</optionB>
+        <optionC>gold card holder and a non gold card holder who both stay in economy class.</optionC>
+        <optionD>A gold card holder who is upgraded to business class and a non gold
+card holder who stays in economy class.</optionD>
+        <answer>A gold card holder who stays in economy and a non gold card holder who gets upgraded to business class</answer>
+        <number>4</number>
+        <image>image_eight_again</image>
+    </question>
+
+    <question>
+        <questionName>For the following piece of code, how many test cases are needed to get 100% path coverage?
+
+Procedure X
+Read (Color) // Input color from user
+IF (Color == “Red”) THEN
+Call Roses(Color)
+ELSEIF (Color == “Blue”) THEN
+Call Violets(Color)
+ELSE
+PRINT “User is no Shakespeare”
+SaveToDatabase(Color)
+End Procedure X</questionName>
+
+        <optionA>5</optionA>
+        <optionB>3</optionB>
+        <optionC>1</optionC>
+        <optionD>2</optionD>
+        <answer>3</answer>
+        <number>4</number>
+        <image> </image>
+    </question>
+
+    <question>
+        <questionName>You have designed test cases to provide 100% statement and 100% decision coverage for the following fragment of code.
+
+if width > length
+then
+biggest_dimension = width
+else
+biggest_dimension = length
+end_if
+The following has been added to the bottom of the code fragment above.
+print "Biggest dimension is " &amp; biggest_dimension
+print "Width: " &amp; width
+print "Length: " &amp; length
+
+How many more test cases are required?</questionName>
+
+        <optionA>One more test case will be required for 100 % decision coverage</optionA>
+        <optionB>Two more test cases will be required for 100 % statement coverage, one of which will be used to provide 100% decision coverage.</optionB>
+        <optionC>None, existing test cases can be used.</optionC>
+        <optionD>One more test case will be required for 100" statement coverage</optionD>
+        <answer>None, existing test cases can be used.</answer>
+        <number>4</number>
+        <image> </image>
+    </question>
+
+    <question>
+        <questionName>One of the following is not a part of white box testing as per BS7925II standards.</questionName>
+
+        <optionA>Random testing</optionA>
+        <optionB>syntax testing</optionB>
+        <optionC>data flow testing</optionC>
+        <optionD>statement testing</optionD>
+        <answer>syntax testing</answer>
+        <number>4</number>
+        <image> </image>
+    </question>
+
+    <question>
+        <questionName>Which of the following are most characteristic of structure based testing?
+
+(i) Information about how the software is constructed is used to derive test cases.
+(ii) Statement coverage and/or decision coverage can be measured for existing test cases.
+(iii) The knowledge and experience of people are used to derive test cases.
+(iv) Test cases are derived from a model or specification of the system.</questionName>
+
+        <optionA>(i) and (ii)</optionA>
+        <optionB>(ii) and (iii)</optionB>
+        <optionC>(ii) and (iv)</optionC>
+        <optionD>(i) and (iii)</optionD>
+        <answer>(i) and (ii)</answer>
+        <number>4</number>
+        <image> </image>
+    </question>
+
+    <question>
+        <questionName>Consider the following pseudo code:
+
+Begin
+Read Time
+If Time &lt; 12 Then
+Print(Time, “am”)
+Endif
+If Time > 12 Then
+Print(Time 12,
+“pm”)
+Endif
+If Time = 12 Then
+Print (Time, “noon”)
+Endif
+End
+
+If the test cases Time = 11 and Time = 15 were input, what level of decision coverage would be
+achieved?</questionName>
+
+        <optionA>100% or 6/6</optionA>
+        <optionB>50% or 3/6</optionB>
+        <optionC>67% or 4/6</optionC>
+        <optionD>83% or 5/6</optionD>
+        <answer>83% or 5/6</answer>
+        <number>4</number>
+        <image> </image>
+    </question>
+
+
+    <question>
+        <questionName>Which of the following is the component test standard?</questionName>
+
+        <optionA>IEEE 829</optionA>
+        <optionB>IEEE 610</optionB>
+        <optionC>BS79251</optionC>
+        <optionD>BS79252</optionD>
+        <answer>BS79252</answer>
+        <number>4</number>
+        <image> </image>
+    </question>
+
+    <question>
+        <questionName> Given the following sets of test management terms (v - z), and activity Descriptions (1 - 5), which one of the following best pairs the two sets?
+
+v - Test control
+w - Test monitoring
+x - Test estimation
+y - Incident management
+z - Configuration control
+
+1 - Calculation of required test resources
+2 - Maintenance of record of test results
+3 - Reallocation of resources when tests overrun
+4 - Report on deviation from test plan.
+5 - Tracking of anomalous test results.</questionName>
+
+        <optionA>v-3, w-2, x-1, y-5, z-4</optionA>
+        <optionB>v-2, w-5, x-1, y-4, z-3</optionB>
+        <optionC>v-3, w-4, x-1, y-5, z-2 </optionC>
+        <optionD>v-2, w-1, x-4, y-3, z-5</optionD>
+        <answer>v-3, w-4, x-1, y-5, z-2</answer>
+        <number>5</number>
+        <image> </image>
+    </question>
+
+    <question>
+        <questionName>What is the difference between a project risk and a product risk?</questionName>
+        <optionA>Project risks are potential failure areas in the software or system; product risks are risks that surround the project’s capability to deliver its objectives.</optionA>
+        <optionB>Project risks are the risks that surround the project’s capability to deliver its objectives; product risks are potential failure areas in the software or system.</optionB>
+        <optionC>Project risks are typically related to supplier issues, organizational factors and technical issues;product risks are typically related to skill and staff shortages.</optionC>
+        <optionD> Project risks are risks that delivered software will not work; product risks are typically related to supplier issues, organizational factors and technical issues.</optionD>
+        <answer>Project risks are the risks that surround the project’s capability to deliver its objectives; product risks are potential failure areas in the software or system.</answer>
+        <number>5</number>
+        <image> </image>
+    </question>
+
+    <question>
+        <questionName>There are several risks of managing your project's schedule with a statistical reliability model. These include (choose one or more of the following):</questionName>
+
+        <optionA>Testers spend more energy early in the product trying to find bugs than preparing to do the rest of the project's work more efficiently</optionA>
+        <optionB>Managers might not realize that the testing effort is ineffective, late in the project,because they expect a low rate of bug finding, so the low rate achieved doesn't alarm them.</optionB>
+        <optionC>It can increase the end of project pressure on testers to not find bugs, or to not report bugs.</optionC>
+        <optionD>All of the above</optionD>
+        <answer>All of the above</answer>
+        <number>5</number>
+        <image> </image>
+    </question>
+
+    <question>
+        <questionName>A project that is in the implementation phase is six weeks behind schedule.The delivery date for the product is four months away. The project is not allowed to slip the delivery date or compromise on the quality standards established for his product. Which of the following actions would bring this project back on schedule?</questionName>
+
+        <optionA>Eliminate some of the requirements that have not yet been implemented.</optionA>
+        <optionB>Add more engineers to the project to make up for lost work.</optionB>
+        <optionC>Ask the current developers to work overtime until the lost work is recovered.</optionC>
+        <optionD>Hire more software quality assurance personnel.</optionD>
+        <answer>Eliminate some of the requirements that have not yet been implemented.</answer>
+        <number>5</number>
+        <image> </image>
+    </question>
+
+
+
+
+    <question>
+        <questionName>Stochastic testing using statistical information or operational profiles uses the following method:</questionName>
+
+        <optionA>Heuristic testing approach</optionA>
+        <optionB>Methodical testing approach</optionB>
+        <optionC>Model based testing approach</optionC>
+        <optionD>Process or standard compliant testing approach</optionD>
+        <answer>Model based testing approach</answer>
+        <number>5</number>
+        <image> </image>
+    </question>
+
+    <question>
+        <questionName>Incidents would not be raised against:</questionName>
+
+        <optionA>Requirements </optionA>
+        <optionB>Documentation</optionB>
+        <optionC>Test cases </optionC>
+        <optionD>Improvements suggested by users</optionD>
+        <answer>Improvements suggested by users</answer>
+        <number>5</number>
+        <image> </image>
+    </question>
+
+    <question>
+        <questionName>What information need not be included in a test incident report:</questionName>
+
+        <optionA>How to fix the fault</optionA>
+        <optionB>How to reproduce the fault</optionB>
+        <optionC>Test environment details</optionC>
+        <optionD>Severity, priority</optionD>
+        <answer>How to fix the fault</answer>
+        <number>5</number>
+        <image> </image>
+    </question>
+
+    <question>
+        <questionName>Which of the following are false?</questionName>
+
+        <optionA>An incident can be raised against documentation.</optionA>
+        <optionB>Incidents can be analyzed to assist in test process improvement.</optionB>
+        <optionC>Incidents occur when expected and actual results differ.</optionC>
+        <optionD>Incidents should always be investigated and resolved.</optionD>
+        <answer>Incidents can be analyzed to assist in test process improvement.</answer>
+        <number>5</number>
+        <image> </image>
+    </question>
+
+    <question>
+        <questionName>Which of the following is the task of a Test Lead / Leader:
+
+i. Interaction with the Test Tool Vendor to identify best ways to leverage test tool on the project.
+ii. Write Test Summary Reports based on the information gathered during testing
+iii. Decide what should be automated , to what degree and how.
+iv. Create the Test Specifications</questionName>
+
+        <optionA>i, ii, iii is true and iv is false</optionA>
+        <optionB>ii,iii,iv is true and i is false</optionB>
+        <optionC>i is true and ii,iii,iv are false</optionC>
+        <optionD>iii and iv is correct and i and ii are incorrect</optionD>
+        <answer>i, ii, iii is true and iv is false</answer>
+        <number>5</number>
+        <image> </image>
+    </question>
+
+    <question>
+        <questionName>Which of the following methods of test estimations rely on information captured from previous projects?</questionName>
+
+        <optionA>Test point based</optionA>
+        <optionB>Expert based</optionB>
+        <optionC>Metric based</optionC>
+        <optionD>Experienced based</optionD>
+        <answer>Metric based</answer>
+        <number>5</number>
+        <image> </image>
+    </question>
+
+
+    <question>
+        <questionName>Which of the following could be a disadvantage of independent testing?</questionName>
+
+        <optionA>Developer and independent testing will overlap and waste resources.</optionA>
+        <optionB>Communication is limited between independent testers and developers.</optionB>
+        <optionC>Developers can lose a sense of responsibility for quality</optionC>
+        <optionD>Independent testers are slow and delay the project schedule.</optionD>
+        <answer>Developers can lose a sense of responsibility for quality</answer>
+        <number>5</number>
+        <image>  </image>
+    </question>
+
+    <question>
+        <questionName>Which of the following is the most important difference between the metrics based approach and the expert based approach to test estimation?</questionName>
+
+        <optionA>The metrics based approach is more accurate than the expert based approach.</optionA>
+        <optionB>The metrics based approach uses calculations from historical data while the expert based approach relies on team wisdom.</optionB>
+        <optionC>The metrics based approach can be used to verify an estimate created using the expert based approach, but not vice versa.</optionC>
+        <optionD>The expert based approach takes longer than the metrics based approach.</optionD>
+        <answer>The metrics based approach uses calculations from historical data while the expert based approach relies on team wisdom.</answer>
+        <number>5</number>
+        <image> </image>
+    </question>
+
+
+    <question>
+        <questionName>Which of the following is a standard for test documentation?</questionName>
+
+        <optionA>IEEE Std. 1028</optionA>
+        <optionB>IEEE Std. 829</optionB>
+        <optionC>ISO 9126</optionC>
+        <optionD>BS7925</optionD>
+        <answer>IEEE Std. 829</answer>
+        <number>5</number>
+        <image> </image>
+    </question>
+
+    <question>
+        <questionName>Consider the following list of either product or project risks:
+
+I An incorrect calculation of fees might shortchange the organization.
+II A vendor might fail to deliver a system component on time.
+III A defect might allow hackers to gain administrative privileges.
+IV A skills gap might occur in a new technology used in the system.
+V A defect prioritization process might overload the development team.
+
+Which of the following statements is true?</questionName>
+
+        <optionA>I is primarily a product risk and II, III, IV and V are primarily project risks.</optionA>
+        <optionB>II and V are primarily product risks and I, III and V are primarily project risks</optionB>
+        <optionC>I and III are primarily product risks, while II, IV and V are primarily project risks.</optionC>
+        <optionD>III and V are primarily product risks, while I, II and IV are primarily project risks.</optionD>
+        <answer>I and III are primarily product risks, while II, IV and V are primarily project risks.</answer>
+        <number>5</number>
+        <image> </image>
+    </question>
+
+
+    <question>
+        <questionName>A test plan included the following clauses among the exit criteria:
+
+• System test shall continue until all significant product risks have been covered to the extent specified in the product risk analysis document.
+• System test shall continue until no must fix defects remain against any significant product risks specified in the product risk analysis document.
+
+During test execution, the test team detects 430 must fix defects prior to release and all must fix defects are resolved. After release, the customers find 212 new defects, none of which were detected during testing. This means that only 67% of the important defects were found prior to release, a percentage which is well below average in your industry. You are asked to find the root cause for the high number of field failures. Consider the following list of explanations:
+
+I.Not all the tests planned for the significant product risks were executed.
+
+II.The organization has unrealistic expectations of the percentage of defects that testing can find.
+
+III.A version control issue has resulted in the release of a version of the software that was used during early testing.
+
+IV The product risk analysis failed to identify all the important risks from a customer point of view.
+
+V The product risk analysis was not updated during the project as new information became available.
+
+Which of the following statements indicate which explanations are possible root causes?</questionName>
+
+        <optionA>II, III and IV are possible explanations, but I and V are not possible</optionA>
+        <optionB> All five are possible explanations</optionB>
+        <optionC>I, IV and V are possible explanations, but II and III are not possible.</optionC>
+        <optionD>Ill, IV and V are possible explanations, but I and II are not possible.</optionD>
+        <answer>I, IV and V are possible explanations, but II and III are not possible.</answer>
+        <number>5</number>
+        <image> </image>
+    </question>
+
+    <question>
+        <questionName>As a Test Manager you have the following requirements to be tested:
+Requirements to test:
+
+R1 Process Anomalies – High Complexity
+R2 Remote Services – Medium Complexity
+R3 – Synchronization – Medium Complexity
+R4 – Confirmation – Medium Complexity
+R5 Process closures – Low Complexity
+R6 – Issues – Low Complexity
+R7 Financial Data – Low Complexity
+R8 Diagram Data – Low Complexity
+R9 Changes on user profile – Medium Complexity
+
+Requirements logical dependencies (A >B means that B is dependent on A):
+
+How would you structure the test execution schedule according to the requirement dependencies?</questionName>
+
+        <optionA>R4 > R5 > R1 > R2 > R3 > R7 > R8 > R6 > R9</optionA>
+        <optionB>R1 > R2 > R3 > R4 > R5 > R7 > R8 > R6 > R9.</optionB>
+        <optionC>R1 > R2 > R4 > R5 > R3 > R7 > R8 > R6 > R9.</optionC>
+        <optionD>R1 > R2 > R3 > R7 > R8 > R4 > R5 > R6 > R9.</optionD>
+        <answer>R1 > R2 > R4 > R5 > R3 > R7 > R8 > R6 > R9.</answer>
+        <number>5</number>
+        <image>image_four</image>
+    </question>
+
+    <question>
+        <questionName>You are a tester in a safety critical software development project. During execution of a test, you find out that one of your expected results was not achieved. You write an incident report about it. What do you consider to be the most important information to include according to the IEEE Std. 829?
+
+        </questionName>
+        <optionA>Impact, incident description, date and time, your name.</optionA>
+        <optionB>Unique id for the report, special requirements needed</optionB>
+        <optionC>Transmitted items, your name and you’re feeling about the defect source.</optionC>
+        <optionD>Incident description, environment, expected results.</optionD>
+        <answer>Impact, incident description, date and time, your name.</answer>
+        <number>5</number>
+        <image> </image>
+    </question>
+
+    <question>
+        <questionName>Which of the following are typical test exit criteria?</questionName>
+
+        <optionA>Thoroughness measures, reliability measures, test cost, schedule, state of defect correction and residual risks</optionA>
+        <optionB>Thoroughness measures, reliability measures, degree of tester independence and product completeness.</optionB>
+        <optionC>Thoroughness measures, reliability measures, test cost, time to market and product completeness,availability of testable code.</optionC>
+        <optionD>Time to market, residual defects, tester qualification, degree of tester independence, thoroughness measures and test cost.</optionD>
+        <answer>Thoroughness measures, reliability measures, test cost, schedule, state of defect correction and residual risks</answer>
+        <number>5</number>
+        <image> </image>
+    </question>
+
+    <question>
+        <questionName>The ISTQB Foundation Syllabus establishes a fundamental test process where test planning occurs early in the project, while test execution occurs at the end. Which of the following elements of the test plan, while specified during test planning, is assessed during test execution?</questionName>
+
+        <optionA>Test tasks</optionA>
+        <optionB>Environmental needs</optionB>
+        <optionC>Exit criteria</optionC>
+        <optionD>Test team training</optionD>
+        <answer>Exit criteria</answer>
+        <number>5</number>
+        <image> </image>
+    </question>
+
+    <question>
+        <questionName>In a test summary report, the project's test leader makes the following statement, 'The payment processing subsystem fails to accept payments from American Express cardholders, which is considered a mustwork feature for this release.' This statement is likely to be found in which of the following sections?</questionName>
+
+        <optionA>Evaluation</optionA>
+        <optionB>Summary of activities</optionB>
+        <optionC>Variances</optionC>
+        <optionD>Incident description</optionD>
+        <answer>Evaluation</answer>
+        <number>5</number>
+        <image> </image>
+    </question>
+
+    <question>
+        <questionName>Some tools are geared more for developer use. For the 5 tools listed, which statement BEST details those for developers
+
+i) Performance testing tools.
+ii) Coverage measurement tools.
+iii) Test comparators.
+iv) Dynamic analysis tools.
+v) Incident management tools.</questionName>
+
+        <optionA>i, iii. and iv. are more for developers.</optionA>
+        <optionB>ii. and iv. are more for developers.</optionB>
+        <optionC>ii, iii. and iv. are more for developers.</optionC>
+        <optionD>ii. and iii. are more for developers.</optionD>
+        <answer>ii. and iv. are more for developers.</answer>
+        <number>6</number>
+        <image> </image>
+    </question>
+
+    <question>
+        <questionName>Which of the following benefits are MOST likely to be achieved by using test tools?
+
+i) Easy to access information about tests and testing.
+ii) Reduced maintenance of testware.
+iii) Easy and cheap to implement.
+iv) Greater consistency of tests.</questionName>
+
+        <optionA>ii and iv</optionA>
+        <optionB>ii and iii</optionB>
+        <optionC>i and iv</optionC>
+        <optionD>i and iii</optionD>
+        <answer>i and iv</answer>
+        <number>6</number>
+        <image> </image>
+    </question>
+
+    <question>
+        <questionName>Find the mismatch:</questionName>
+
+        <optionA>Test data preparation tools – Manipulate Data bases</optionA>
+        <optionB>Test design tools – Generate test inputs</optionB>
+        <optionC>Requirement management tools – Enables individual tests to be traceable</optionC>
+        <optionD>Configuration management tools – Check for consistence</optionD>
+        <answer>Configuration management tools – Check for consistence</answer>
+        <number>6</number>
+        <image> </image>
+    </question>
+
+    <question>
+        <questionName>When a new testing tool is purchased, it should be used first by:</questionName>
+
+        <optionA>A small team to establish the best way to use the tool</optionA>
+        <optionB>Everyone who may eventually have some use for the tool</optionB>
+        <optionC>The independent testing team</optionC>
+        <optionD>The vendor contractor to write the initial scripts</optionD>
+        <answer>A small team to establish the best way to use the tool</answer>
+        <number>6</number>
+        <image> </image>
+    </question>
+
+    <question>
+        <questionName>Which of the following BEST describes a data driven approach to the use of test execution tools?</questionName>
+
+        <optionA>Monitoring response times when the system contains a specified amount of data</optionA>
+        <optionB>Manipulation of databases and files to create test data</optionB>
+        <optionC>Using a generic script that reads test input data from a file</optionC>
+        <optionD>Recording test scripts and playing them back</optionD>
+        <answer>Using a generic script that reads test input data from a file</answer>
+        <number>6</number>
+        <image> </image>
+    </question>
+
+    <question>
+        <questionName>Which of the following activities would improve how a tool is deployed within an organisation?
+
+a. Defining best practice guidelines for users.
+b. Roll out the tool across the organisation as quickly as possible to all users.
+c. Provide technical support to the test team for each type of tool.
+d. Introduce a system to monitor tool usage and user feedback.
+e. Ensure that the test process is not changed as result of the tools introduction.</questionName>
+
+        <optionA>a, b and c.</optionA>
+        <optionB>a, c and d.</optionB>
+        <optionC>c, d and e.</optionC>
+        <optionD>b, d and e.</optionD>
+        <answer>a, c and d.</answer>
+        <number>6</number>
+        <image> </image>
+    </question>
+
+    <question>
+        <questionName>Which of the following activities should be performed during the selection and implementation of a
+testing tool?
+
+a. Determine whether the organisations existing test process needs to change.
+b. Conduct a proof of concept.
+c. Implement the selected tool on a project behind schedule to save time.
+d. Identify coaching and mentoring requirements for the use of the selected tool
+        </questionName>
+
+        <optionA>a, b and c.</optionA>
+        <optionB>b, c and d.</optionB>
+        <optionC>a, c and d.</optionC>
+        <optionD>a, b and d.</optionD>
+        <answer>a, b and d.</answer>
+        <number>6</number>
+        <image> </image>
+    </question>
+
+
+
+    <question>
+        <questionName>From a Testing perspective, what are the MAIN purposes of Configuration Management?
+
+a. Identifying the version of software under test.
+b. Controlling the version of testware items.
+c. Developing new testware items.
+d. Tracking changes to testware items.
+e. Analysing the need for new testware items.</questionName>
+
+        <optionA>b, d and e.</optionA>
+        <optionB>b, c and d.</optionB>
+        <optionC>a, b and d.</optionC>
+        <optionD>a, c and e.</optionD>
+        <answer>a, b and d.</answer>
+        <number>6</number>
+        <image> </image>
+    </question>
+
+    <question>
+        <questionName>Which of the following are characteristic of test management tools?
+
+a. They support traceability of tests to source documents.
+b. They provide an interface to test execution tools.
+c. They help to enforce coding standards.
+d. They manipulate databases and files to set up test data.</questionName>
+
+        <optionA>a and c</optionA>
+        <optionB>b and c</optionB>
+        <optionC>a and b</optionC>
+        <optionD>b and d</optionD>
+        <answer>a and b</answer>
+        <number>6</number>
+        <image> </image>
+    </question>
+
+    <question>
+        <questionName>Which of the following activities would improve how a tool is deployed within an organisation?
+
+a. Roll out the tool across the organisation as quickly as possible to all users.
+b. Conduct periodic lessons learnt reviews with tool users.
+c. Provide technical support to the test team for each type of tool.
+d. If a tool is not being used, withdraw it and look for an alternative.
+e. Make sure processes are improved to reflect a new tool.</questionName>
+
+        <optionA>a, b and c</optionA>
+        <optionB>a, c and d</optionB>
+        <optionC>b, c and e</optionC>
+        <optionD>c, d and e</optionD>
+        <answer>b, c and e</answer>
+        <number>6</number>
+        <image> </image>
+    </question>
+
+    <question>
+        <questionName>Which of the following matches the activity (i to iv) to its most suitable type of tool (p to s)?
+
+i. Analysis of code structure.
+ii. Generation of test cases.
+iii. Simulation of the environment in which a component is run.
+iv. Analysis of test metrics.
+
+p. Test management.
+q. Test design tool.
+r. Static analysis tool.
+s. Test harness.</questionName>
+
+        <optionA>i-s, ii-p, iii-r, iv-q</optionA>
+        <optionB>i-r, ii-q, iii-s, iv-p</optionB>
+        <optionC>i-r, ii-s, iii-p, iv-q</optionC>
+        <optionD>i-q, ii-r, iii-s, iv-p</optionD>
+        <answer>i-r, ii-q, iii-s, iv-p</answer>
+        <number>6</number>
+        <image> </image>
+    </question>
+
+    <question>
+        <questionName>Which of the following tools would you use to detect a memory leak?</questionName>
+
+        <optionA>Static analysis tools</optionA>
+        <optionB>Coverage tools</optionB>
+        <optionC>Dynamic analysis</optionC>
+        <optionD>Monitoring tools</optionD>
+        <answer>Dynamic analysis</answer>
+        <number>6</number>
+        <image> </image>
+    </question>
+
+    <question>
+        <questionName>Which of the following BEST describes a keyword driven testing approach?</questionName>
+
+        <optionA>Test input and expected results are stored in a table or spreadsheet, so that a single control script can execute all of the tests in the table</optionA>
+        <optionB>Action words are defined to cover specific interactions in system (e.g., logon entries) which can then be used by testers to build their tests</optionB>
+        <optionC>Keywords are entered into a test harness to obtain predefined test coverage reports</optionC>
+        <optionD>The test basis is searched using keywords to help identify suitable test conditions</optionD>
+        <answer>Action words are defined to cover specific interactions in system (e.g., logon entries) which can then be used by testers to build their tests</answer>
+        <number>6</number>
+        <image> </image>
+    </question>
+
+    <question>
+        <questionName>What is the purpose of configuration management in testing?
+
+a. To choose and implement a suitable configuration management tool.
+b. To identify unique items of testware and their related developed software.
+c. To provide traceability between items of testware and developed software.
+d. To enable managers to configure the software.
+e. To control the versions of software released into the test environment.</questionName>
+
+        <optionA>a, c and e</optionA>
+        <optionB>a, b and d</optionB>
+        <optionC>b, c and d</optionC>
+        <optionD>b, c and e</optionD>
+        <answer>b, c and e</answer>
+        <number>6</number>
+        <image> </image>
+    </question>
+
+    <question>
+        <questionName>Which of the following are benefits and which are risks of using tools to support testing?
+
+1 Overreliance on the tool
+2 Greater consistency and repeatability
+3 Objective assessment
+4 Unrealistic expectations
+5 Underestimating the effort required to maintain the test assets generated by the tool
+6 Ease of access to information about tests or testing
+7 Repetitive work is reduced</questionName>
+
+        <optionA>Benefits: 3,4,6 and 7. Risks: 1,2 and 5</optionA>
+        <optionB>Benefits: 1,2,3 and 7, Risks: 4,5 and 6</optionB>
+        <optionC>Benefits: 2,3,6 and 7. Risks: 1,4 and 5</optionC>
+        <optionD>Benefits: 2,3,5 and 6. Risks: 1,4 and 7</optionD>
+        <answer>Benefits: 2,3,6 and 7. Risks: 1,4 and 5</answer>
+        <number>6</number>
+        <image> </image>
+    </question>
+
+    <question>
+        <questionName>From the list below, select the recommended principles for introducing a chosen test tool in an Organization?
+
+1. Roll the tool out to the entire organization at the same time.
+2. Start with a pilot project.
+3. Adapt and improve processes to fit the use of the tool.
+4. Provide training and coaching for new users.
+5. Let each team decide their own standard ways of using the tool.
+6. Monitor that costs do not exceed initial acquisition cost.
+7. Gather lessons learned from all teams.</questionName>
+
+        <optionA>1, 2, 3, 5.</optionA>
+        <optionB>3, 4, 5, 6</optionB>
+        <optionC>1, 4, 6, 7.</optionC>
+        <optionD>2, 3, 4, 7</optionD>
+        <answer>2, 3, 4, 7</answer>
+        <number>6</number>
+        <image> </image>
+    </question>
+
+    <question>
+        <questionName>The _________ may facilitate the testing of components or part of a system by simulating the environment in which the test object will run.
+        </questionName>
+
+        <optionA>Test Design tool</optionA>
+        <optionB>Test data preparation tool</optionB>
+        <optionC>Test harness</optionC>
+        <optionD>None of the above</optionD>
+        <answer>Test harness</answer>
+        <number>6</number>
+        <image> </image>
+    </question>
+
+    <question>
+        <questionName>Which tool needs to interface with other office automation software in order to generate reports in the format required by the organization?</questionName>
+
+        <optionA>Progress tracking tools</optionA>
+        <optionB>Test management tools</optionB>
+        <optionC>Metrics management tools</optionC>
+        <optionD>Test execution tools</optionD>
+        <answer>Test management tools</answer>
+        <number>6</number>
+        <image> </image>
+    </question>
+
+    <question>
+        <questionName>Which of the following can be considered as success factors when deploying a new tool in an organization?
+        </questionName>
+
+        <optionA>Providing coaching to users and defining usage guidelines</optionA>
+        <optionB>Monitoring tool usage and reducing the need for risk analysis</optionB>
+        <optionC>Improving processes and focusing more on component testing</optionC>
+        <optionD>Assessing testing completion and minimizing code reviews</optionD>
+        <answer>Providing coaching to users and defining usage guidelines</answer>
+        <number>6</number>
+        <image> </image>
+    </question>
+
+    <question>
+        <questionName>What type of tool continuously analyse, verify, and report on usage of specific system resources and give warnings of possible service problems?
+        </questionName>
+
+        <optionA>Dynamic Analysis Tools</optionA>
+        <optionB>Security Testing Tools</optionB>
+        <optionC>Monitoring Tools</optionC>
+        <optionD>Coverage Measurement Tools</optionD>
+        <answer>Monitoring Tools</answer>
+        <number>6</number>
+        <image> </image>
+    </question>
+
+
+    <question>
+        <questionName>Which of the following statements is NOT correct?</questionName>
+        <optionA>A minimal test set that achieves 100% LCSAJ coverage will also achieve 100% branch coverage.</optionA>
+        <optionB>A minimal test set that achieves 100% path coverage will also achieve 100% statement coverage.</optionB>
+        <optionC>A minimal test set that achieves 100% path coverage will generally detect more faults than one that achieves 100%
+statement coverage.</optionC>
+        <optionD>A minimal test set that achieves 100% statement coverage will generally detect more faults than one that achieves 100%
+path coverage.</optionD>
+        <answer>A minimal test set that achieves 100% statement coverage will generally detect more faults than one that achieves 100%
+path coverage.</answer>
+        <number>7</number>
+        <image> </image>
+    </question>
+
+    <question>
+        <questionName>In the state transition diagram below:</questionName>
+        <optionA>S0-S1-S2-S3-S1-S4</optionA>
+        <optionB>S0-S1-S4-S1-S2-S3</optionB>
+        <optionC>S0-S1-S3-S1-S2-S1</optionC>
+        <optionD>S0-S1-S2-S3-S1-S2</optionD>
+        <answer>S0-S1-S3-S1-S2-S1</answer>
+        <number>7</number>
+        <image>image_two</image>
+    </question>
+
+    <question>
+        <questionName>Given the following state transition diagram which of the following series of state transitions contains an INVALID transition which may indicate a fault in the system design?
+        </questionName>
+        <optionA>Login Browse Basket Checkout Basket Checkout Pay Logout.</optionA>
+        <optionB>Login Browse Basket Checkout Pay Logout.</optionB>
+        <optionC>Login Browse Basket Checkout Basket Logout.</optionC>
+        <optionD>Login Browse Basket Browse Basket Checkout Pay Logout</optionD>
+        <answer>Login Browse Basket Checkout Basket Logout.</answer>
+        <number>7</number>
+        <image>image_three</image>
+    </question>
+
+    <question>
+        <questionName>A candidate attends an exam with 40 questions. To pass, the candidate must answer at least 25 questions correctly. To gain a distinction, a mark of 32 or above must be achieved. Which of these groups of exam scores would fall into three different equivalence classes?</questionName>
+        <optionA>32, 36, 40</optionA>
+        <optionB>0, 27, 36</optionB>
+        <optionC>0, 24, 32</optionC>
+        <optionD>25, 32, 40</optionD>
+        <answer>0, 27, 36</answer>
+        <number>7</number>
+        <image> </image>
+    </question>
+
+    <question>
+        <questionName>One of the test goals for the project is to have 100% decision coverage. The following three tests have been executed for the
+control flow graph shown below.
+
+Test A covers path: A, B, D, E, G.
+Test B covers path: A, B, D, E, F, G.
+Test C covers path: A, C, F, C, F, C, F, G</questionName>
+        <optionA>Decision D has not been tested completely</optionA>
+        <optionB>100% decision coverage has been achieved.</optionB>
+        <optionC>Decision E has not been tested completely.</optionC>
+        <optionD>Decision F has not been tested completely.</optionD>
+        <answer>Decision D has not been tested completely</answer>
+        <number>7</number>
+        <image>image_nine</image>
+    </question>
+
+    <question>
+        <questionName>Postal rates for 'light letters' are 25p up to l0g, 35p up to 50g plus an extra l0p for each additional 25g up to l00g. Which test inputs (in grams) would be selected using Boundry value analysis?
+        </questionName>
+        <optionA>1,10,11,50.51,75,76,100</optionA>
+        <optionB>10,50,75,100,250</optionB>
+        <optionC>0,1,10,11,50.51,75,76,100,101</optionC>
+        <optionD>0,9,19,49,50,74,75,99,100</optionD>
+        <answer>0,1,10,11,50.51,75,76,100,101</answer>
+        <number>7</number>
+        <image> </image>
+    </question>
+
+    <question>
+        <questionName>A simplified state transition table is being used to model a bank’s ATM login behavior.
+
+Three states have been identified:
+1.Waiting for Customer
+2.PIN processing
+3.ATM Processing.
+
+The following events have been identified (note that some have multiple conditions possible: noted in brackets):
+Insert Card [Valid and Invalid]
+Cancel (2 Actions possible: ATM Returns card to customer, ATM Keeps card)
+Enter PIN [Valid, Invalid]
+Done (Action: ATM Returns card to customer)
+
+Like most ATMs, inputting the incorrect PIN 3 times causes the ATM to keep the card and output a message that the card can be picked up the next day at the home bank.
+
+For final regression testing, you are required to test to the level of coverage exercising all transitions. Assume that each test case begins at State 1 (Waiting for Customer.) A test case must end when it arrives back at State 1. ATM operation may be
+cancelled at the PIN processing state or at the ATM Processing state.
+
+Based on the following state transition diagram, what is the minimum number of test cases need to provide this level of</questionName>
+        <optionA>5</optionA>
+        <optionB>4</optionB>
+        <optionC>3</optionC>
+        <optionD>7</optionD>
+        <answer>5</answer>
+        <number>7</number>
+        <image>image_five</image>
+    </question>
+
+    <question>
+        <questionName>Company ABC is going to provide their employees with a bonus which will be based on the employee’s length of service in the company.
+
+The bonus calculation will be zero if they have been with the company for less than two years, 10% of their salary for more than two but less than five years, and 25% for five to ten years, 35% for ten years or more. The interface will not allow a negative value to be input, but it will allow a zero to be input.
+
+How many equivalence partitions are needed to test the calculation of the bonus?</questionName>
+        <optionA>Two equivalence partitions.</optionA>
+        <optionB>Three equivalence partitions.</optionB>
+        <optionC>Four equivalence partitions.</optionC>
+        <optionD>Five equivalence partitions.</optionD>
+        <answer>Four equivalence partitions.</answer>
+        <number>7</number>
+        <image> </image>
+    </question>
+
+    <question>
+        <questionName>Consider the following decision table. Given this decision table, what is the expected result for the following test cases?
+
+TC1: A 26 year old on business but with violations or accidents on his driving record.
+TC2: A 62 year old tourist with a clean driving record.</questionName>
+        <optionA>TC1: Don't supply car; TC2: Supply car with premium charge.</optionA>
+        <optionB>TC1: Supply car with premium charge; TC2: Supply car with no premium charge.</optionB>
+        <optionC>TC1: Don't supply car; TC2: Supply car with no premium charge.</optionC>
+        <optionD>TC1: Supply car with premium charge; TC2: Don't supply car.</optionD>
+        <answer>TC1: Don't supply car; TC2: Supply car with no premium charge.</answer>
+        <number>7</number>
+        <image>image_six</image>
+    </question>
+
+    <question>
+        <questionName>Determine statement coverage and decision coverage for the following:
+
+Pick up and read the newspaper
+Look at what is on television
+If there is a program that you are interested in watching then switch the the television on and watch the program
+Otherwise,
+Continue reading the newspaper
+If there is a crossword in the newspaper then try and complete the crossword</questionName>
+        <optionA>SC = 1 and DC = 1</optionA>
+        <optionB>SC = 1 and DC = 3</optionB>
+        <optionC>SC = 1 and DC = 2</optionC>
+        <optionD>SC = 2 and DC = 3</optionD>
+        <answer>SC = 2 and DC = 3</answer>
+        <number>7</number>
+        <image> </image>
+    </question>
+
+    <question>
+        <questionName>Consider the following decision table.
+If you hold an 'over 60s' railcard, you get a 34% discount on whatever ticket you buy. If you are traveling with a child (under
+16), you can get a 50% discount on any ticket if you hold a family rail card, otherwise you get a 10% discount. You can only hold one type of rail card.
+
+What is the outcome for these two test cases:
+
+TC1:Rogers with over 60's railway card and a family card travelling alone.
+TC2: Joe with no railcard, travelling with his 5 year old niece</questionName>
+        <optionA>TC1: Rogers gets 50% Discount; TC2: Joe and his niece get 50% dicount</optionA>
+        <optionB>TC1: Rogers gets 34% Discount; TC2: Joe and his niece get 10% dicount</optionB>
+        <optionC>TC1: Rogers gets 34% Discount; TC2: Joe and his niece get 50% dicount</optionC>
+        <optionD>TC1: Rogers gets 50% Discount; TC2: Joe and his niece get 10% dicount</optionD>
+        <answer>TC1: Rogers gets 34% Discount; TC2: Joe and his niece get 10% dicount</answer>
+        <number>7</number>
+        <image>image_seven</image>
+    </question>
+
+    <question>
+        <questionName>When choosing which technique to use in a given situation, which factors should be taken into account?
+
+U - previous experience of types of defects found in this or similar systems
+V - the existing knowledge of the testers
+W - regulatory standards that apply
+X - the type of test execution tool that will be used
+Y - the documentation available
+Z - previous experience in the development language</questionName>
+        <optionA>V,W,YandZ</optionA>
+        <optionB>U, V, W and Y</optionB>
+        <optionC>U,X and Y</optionC>
+        <optionD>V,W and Y</optionD>
+        <answer>U, V, W and Y</answer>
+        <number>7</number>
+        <image> </image>
+    </question>
+
+    <question>
+        <questionName>If you are flying with an economy ticket, there is a possibility that you may get upgraded to business class, especially if you hold a gold card in the airline's frequent flier program. If you don't hold a gold card, there is a possibility that you will get 'bumped' off the flight if it is full and you check in late. This is shown in Figure below
+
+Note that each box (i.e. statement) has been numbered.
+Three tests have been run:
+
+Test 1: Gold card holder who gets upgraded to business class
+Test 2: Non gold card holder who stays in economy
+Test 3: A person who is bumped from the flight
+
+What is the statement coverage of these three tests?</questionName>
+        <optionA>60%</optionA>
+        <optionB>70%</optionB>
+        <optionC>80%</optionC>
+        <optionD>90%</optionD>
+        <answer>80%</answer>
+        <number>7</number>
+        <image>image_eight</image>
+    </question>
+
+    <question>
+        <questionName>Considering the diagram with the flight check in flow diagram:
+What additional tests would be needed to achieve 100% decision coverage?
+
+Three tests have been run:
+Test 1: Gold card holder who gets upgraded to business class
+Test 2: Non-gold card holder who stays in economy
+Test 3: A person who is bumped from the flight</questionName>
+        <optionA>A gold card holder who stays in economy and a non gold card holder who gets upgraded to business class</optionA>
+        <optionB>A gold card holder and a non gold card holder who are both upgraded to business class.</optionB>
+        <optionC>A gold card holder and a non gold card holder who both stay in economy class.</optionC>
+        <optionD>A gold card holder who is upgraded to business class and a non gold
+card holder who stays in economy class.</optionD>
+        <answer>A gold card holder who stays in economy and a non gold card holder who gets upgraded to business class</answer>
+        <number>7</number>
+        <image>image_eight_again</image>
+    </question>
+
+    <question>
+        <questionName>You have designed test cases to provide 100% statement and 100% decision coverage for the following fragment of code.
+
+if width > length
+then
+biggest_dimension = width
+else
+biggest_dimension = length
+end_if
+
+The following has been added to the bottom of the code fragment above.
+print "Biggest dimension is " &amp; biggest_dimension
+print "Width: " &amp; width
+print "Length: " &amp; length
+
+How many more test cases are required?</questionName>
+        <optionA>One more test case will be required for 100 % decision coverage</optionA>
+        <optionB>Two more test cases will be required for 100 % statement coverage, one of which will be used to provide 100% decision coverage.</optionB>
+        <optionC>None, existing test cases can be used.</optionC>
+        <optionD>One more test case will be required for 100" statement coverage</optionD>
+        <answer>None, existing test cases can be used.</answer>
+        <number>7</number>
+        <image> </image>
+    </question>
+
+    <question>
+        <questionName>For the following piece of code, how many test cases are needed to get 100% path coverage?
+
+Procedure X
+Read (Color) // Input color from user
+IF (Color == “Red”) THEN
+Call Roses(Color)
+ELSEIF (Color == “Blue”) THEN
+Call Violets(Color)
+ELSE
+PRINT “User is no Shakespeare”
+SaveToDatabase(Color)
+End Procedure X</questionName>
+        <optionA>5</optionA>
+        <optionB>3</optionB>
+        <optionC>1</optionC>
+        <optionD>2</optionD>
+        <answer>3</answer>
+        <number>7</number>
+        <image> </image>
+    </question>
+
+    <question>
+        <questionName>The oracle assumption:</questionName>
+        <optionA>Is that there is some existing system against which test output may be checked.</optionA>
+        <optionB>Is that the tester can routinely identify the correct outcome of a test.</optionB>
+        <optionC>Is that the tester has complete knowledge about the software under test.</optionC>
+        <optionD>Is that the tests are always reviewed.</optionD>
+        <answer>Is that the tester can routinely identify the correct outcome of a test.</answer>
+        <number>7</number>
+        <image> </image>
+    </question>
+
+    <question>
+        <questionName>Pair the correct test design techniques (i to v) with the category of techniques (X, Y and Z):
+
+i. Exploratory Testing
+ii. Equivalence Partitioning
+iii. Decision Testing
+iv. Use Case Testing
+
+v. Condition coverage
+X. Specification based
+Y. Structure based
+Z. Experienced based</questionName>
+        <optionA>X=i and ii, Y=iii and v, Z=iv</optionA>
+        <optionB>X= i, ii and iv, Y= v, Z=iii</optionB>
+        <optionC>X= ii and iv, Y=iii and v , Z=i</optionC>
+        <optionD>X = iii and iv, Y= v, Z=i and ii</optionD>
+        <answer>X= ii and iv, Y=iii and v , Z=i</answer>
+        <number>7</number>
+        <image> </image>
+    </question>
+
+    <question>
+        <questionName>___________ a document specifying a sequence of actions for the execution of a test. Also known as test script or manual test script.</questionName>
+        <optionA>Test design specification</optionA>
+        <optionB>Test case specification</optionB>
+        <optionC>Test procedure specification</optionC>
+        <optionD>Test summary report</optionD>
+        <answer>Test procedure specification</answer>
+        <number>7</number>
+        <image> </image>
+    </question>
+
+    <question>
+    <questionName>Which of the following is the component test standard?</questionName>
+
+    <optionA>IEEE 829</optionA>
+    <optionB>IEEE 610</optionB>
+    <optionC>BS79251</optionC>
+    <optionD>BS79252</optionD>
+    <answer>BS79252</answer>
+    <number>7</number>
+    <image> </image>
+</question>
+
+    </question-list>
+
+
