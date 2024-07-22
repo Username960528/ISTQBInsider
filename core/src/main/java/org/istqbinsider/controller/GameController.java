@@ -2,6 +2,7 @@ package org.istqbinsider.controller;
 
 import org.istqbinsider.model.Question;
 import org.istqbinsider.ui.UI;
+import org.istqbinsider.ui.ConsoleUI; // Add this import
 import org.istqbinsider.util.Timer;
 import org.istqbinsider.util.XMLParser;
 
@@ -15,10 +16,11 @@ public class GameController {
     private int score;
     private int streak;
 
-    public GameController() {
+    public GameController(UI ui) {
+        this.ui = ui;
         xmlParser = new XMLParser();
         questions = xmlParser.parseQuestions("questions.xml");
-        ui = new UI();
+//        ui = new ConsoleUI(); // Use ConsoleUI as the default implementation
         timer = new Timer();
     }
 

@@ -1,23 +1,24 @@
-// Path: /web/src/main/java/org/istqbinsider/web/WebUI.java
+package org.istqbinsider.ui;
 
-package org.istqbinsider.web;
-
-import org.istqbinsider.ui.UI;
 import org.istqbinsider.model.Question;
-
 import java.util.List;
+import java.util.Scanner;
 
-public class WebUI implements UI {
+public class ConsoleUI implements UI {
+    private Scanner scanner;
+
+    public ConsoleUI() {
+        scanner = new Scanner(System.in);
+    }
+
     @Override
     public void showWelcomeScreen() {
-        // Implement web-specific welcome screen
         System.out.println("Welcome to the MCQ Application!");
         System.out.println("Get ready for Survival Mode!");
     }
 
     @Override
     public void displayQuestion(Question question) {
-        // Implement web-specific question display
         System.out.println("\n" + question.getQuestionText());
         List<String> options = question.getOptions();
         for (int i = 0; i < options.size(); i++) {
@@ -27,8 +28,7 @@ public class WebUI implements UI {
 
     @Override
     public String getUserInput() {
-        // Implement web-specific user input method
-        return ""; // Placeholder
+        return scanner.nextLine();
     }
 
     @Override
@@ -38,7 +38,6 @@ public class WebUI implements UI {
 
     @Override
     public void showGameOverScreen(int score, int streak) {
-        // Implement web-specific game over screen
         System.out.println("Game Over!");
         System.out.println("Your score: " + score);
         System.out.println("Your longest streak: " + streak);
@@ -46,7 +45,6 @@ public class WebUI implements UI {
 
     @Override
     public void showTimeUpScreen(int score, int streak) {
-        // Implement web-specific time up screen
         System.out.println("Time's up!");
         System.out.println("Your score: " + score);
         System.out.println("Your longest streak: " + streak);
@@ -54,7 +52,6 @@ public class WebUI implements UI {
 
     @Override
     public void showGameCompletedScreen(int score, int streak) {
-        // Implement web-specific game completed screen
         System.out.println("Congratulations! You've completed all questions!");
         System.out.println("Your final score: " + score);
         System.out.println("Your longest streak: " + streak);
