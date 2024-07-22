@@ -3,24 +3,25 @@ package org.istqbinsider.controller;
 import org.istqbinsider.model.Question;
 import org.istqbinsider.ui.UI;
 import org.istqbinsider.util.Timer;
-import org.istqbinsider.util.XMLParser;
+import org.istqbinsider.util.QuestionLoader;
 
 import java.util.List;
 
 public class GameController {
-    private XMLParser xmlParser;
+    private QuestionLoader questionLoader;
     private List<Question> questions;
     private UI ui;
     private Timer timer;
     private int score;
     private int streak;
 
-    public GameController(UI ui) {
+    public GameController(UI ui, QuestionLoader questionLoader) {
         this.ui = ui;
-        xmlParser = new XMLParser();
-        questions = xmlParser.parseQuestions("/Users/tribe/IdeaProjects/ISTQBInsider/shared-resourses/questions.xml");
+        this.questionLoader = questionLoader;
+        this.questions = questionLoader.loadQuestions();
         timer = new Timer();
     }
+
 
     public void startGame() {
         ui.showWelcomeScreen();

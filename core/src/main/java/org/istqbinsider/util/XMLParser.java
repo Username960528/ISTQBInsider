@@ -8,38 +8,47 @@ import org.w3c.dom.NodeList;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
-import java.io.File;
+import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
 
-public class XMLParser {
-    public List<Question> parseQuestions(String filename) {
-        List<Question> questions = new ArrayList<>();
+public class XMLParser implements QuestionLoader {
+    @Override
+    public List<Question> loadQuestions() {
+        return parseQuestionsFromFile("questions.xml");
+    }
+
+    public List<Question> parseQuestionsFromFile(String filename) {
         try {
-            File inputFile = new File(filename);
-            DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
-            DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
-            Document doc = dBuilder.parse(inputFile);
-            doc.getDocumentElement().normalize();
-
-            NodeList nList = doc.getElementsByTagName("question");
-
-            for (int temp = 0; temp < nList.getLength(); temp++) {
-                Node nNode = nList.item(temp);
-                if (nNode.getNodeType() == Node.ELEMENT_NODE) {
-                    Element eElement = (Element) nNode;
-                    String questionText = eElement.getElementsByTagName("text").item(0).getTextContent();
-                    String correctAnswer = eElement.getElementsByTagName("correct_answer").item(0).getTextContent();
-                    List<String> options = new ArrayList<>();
-                    NodeList optionList = eElement.getElementsByTagName("option");
-                    for (int i = 0; i < optionList.getLength(); i++) {
-                        options.add(optionList.item(i).getTextContent());
-                    }
-                    questions.add(new Question(questionText, options, correctAnswer));
-                }
-            }
+            InputStream inputStream = getClass().getResourceAsStream("/" + filename);
+            return parseQuestions(inputStream);
         } catch (Exception e) {
             e.printStackTrace();
+            return new ArrayList<>();
+        }
+    }
+
+    public List<Question> parseQuestions(InputStream inputStream) throws Exception {
+        List<Question> questions = new ArrayList<>();
+        DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
+        DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
+        Document doc = dBuilder.parse(inputStream);
+        doc.getDocumentElement().normalize();
+
+        NodeList nList = doc.getElementsByTagName("question");
+        for (int temp = 0; temp < nList.getLength(); temp++) {
+            Node nNode = nList.item(temp);
+            if (nNode.getNodeType() == Node.ELEMENT_NODE) {
+                Element eElement = (Element) nNode;
+                String text = eElement.getElementsByTagName("text").item(0).getTextContent();
+                String correctAnswer = eElement.getElementsByTagName("correct_answer").item(0).getTextContent();
+                List<String> options = new ArrayList<>();
+                NodeList optionNodes = eElement.getElementsByTagName("option");
+                for (int i = 0; i < optionNodes.getLength(); i++) {
+                    options.add(optionNodes.item(i).getTextContent());
+                }
+                questions.add(new Question(text, options, correctAnswer));
+            }
         }
         return questions;
     }

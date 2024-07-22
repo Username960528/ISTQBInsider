@@ -2,6 +2,7 @@ package org.istqbinsider.android;
 
 import org.istqbinsider.ui.UI;
 import org.istqbinsider.model.Question;
+//import android.content.Context;
 
 import android.app.Activity;
 import android.widget.Button;
