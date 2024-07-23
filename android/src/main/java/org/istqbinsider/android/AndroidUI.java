@@ -3,16 +3,19 @@ package org.istqbinsider.android;
 import org.istqbinsider.controller.GameController;
 import org.istqbinsider.ui.UI;
 import org.istqbinsider.model.Question;
-//import android.content.Context;
 
 import android.app.Activity;
+import android.os.Build;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 import android.view.View;
+
+import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AlertDialog;
 
 import java.util.concurrent.CountDownLatch;
+import java.util.function.Consumer;
 
 public class AndroidUI implements UI {
     private Activity activity;
@@ -21,12 +24,12 @@ public class AndroidUI implements UI {
     private Button startSurvivalModeButton;
     private GameController gameController;
 
-
     public AndroidUI(Activity activity, GameController gameController) {
         this.activity = activity;
         this.gameController = gameController;
         initializeUI();
     }
+
     private void initializeUI() {
         // Initialize UI components
         questionTextView = activity.findViewById(R.id.questionTextView);
@@ -66,15 +69,17 @@ public class AndroidUI implements UI {
             }
         });
     }
+
     private CountDownLatch inputLatch;
     private String userAnswer;
+
     @Override
     public String getUserInput() {
         inputLatch = new CountDownLatch(1);
         userAnswer = null;
 
         for (int i = 0; i < optionButtons.length; i++) {
-            final String option = String.valueOf((char)('A' + i));
+            final String option = String.valueOf((char) ('A' + i));
             optionButtons[i].setOnClickListener(v -> {
                 userAnswer = option;
                 inputLatch.countDown();
@@ -100,7 +105,6 @@ public class AndroidUI implements UI {
         });
     }
 
-
     @Override
     public void showCorrectAnswerFeedback() {
         activity.runOnUiThread(() -> {
@@ -111,7 +115,6 @@ public class AndroidUI implements UI {
     @Override
     public void showGameOverScreen(int score, int streak) {
         activity.runOnUiThread(() -> {
-            // You'll need to create and show a game over dialog or activity
             Toast.makeText(activity, "Game Over! Score: " + score + ", Streak: " + streak, Toast.LENGTH_LONG).show();
         });
     }
@@ -119,7 +122,6 @@ public class AndroidUI implements UI {
     @Override
     public void showTimeUpScreen(int score, int streak) {
         activity.runOnUiThread(() -> {
-            // You'll need to create and show a time up dialog or activity
             Toast.makeText(activity, "Time's up! Score: " + score + ", Streak: " + streak, Toast.LENGTH_LONG).show();
         });
     }
@@ -127,8 +129,17 @@ public class AndroidUI implements UI {
     @Override
     public void showGameCompletedScreen(int score, int streak) {
         activity.runOnUiThread(() -> {
-            // You'll need to create and show a game completed dialog or activity
             Toast.makeText(activity, "Game Completed! Final Score: " + score + ", Longest Streak: " + streak, Toast.LENGTH_LONG).show();
         });
+    }
+
+    @RequiresApi(api = Build.VERSION_CODES.N)
+    public void setUserInputCallback(Consumer<String> callback) {
+        for (int i = 0; i < optionButtons.length; i++) {
+            final String option = String.valueOf((char) ('A' + i));
+            optionButtons[i].setOnClickListener(v -> {
+                callback.accept(option);
+            });
+        }
     }
 }

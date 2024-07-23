@@ -30,7 +30,9 @@ public class MainActivity extends AppCompatActivity {
         Button startSurvivalModeButton = findViewById(R.id.startSurvivalModeButton);
         startSurvivalModeButton.setOnClickListener(v -> {
             Log.d(TAG, "Start Survival Mode button clicked");
-            gameController.startSurvivalMode();
+            new Thread(() -> {
+                gameController.startSurvivalMode();
+            }).start();
         });
 
         gameController.startGame();
