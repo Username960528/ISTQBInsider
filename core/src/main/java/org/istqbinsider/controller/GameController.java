@@ -14,13 +14,18 @@ public class GameController {
     private Timer timer;
     private int score;
     private int streak;
+    private Question currentQuestion;
 
-    public GameController(UI ui, QuestionLoader questionLoader) {
-        this.ui = ui;
+    public GameController(QuestionLoader questionLoader) {
+
         this.questionLoader = questionLoader;
         this.questions = questionLoader.loadQuestions();
         timer = new Timer();
     }
+    public void setUI(UI ui) {
+        this.ui = ui;
+    }
+
 
 
     public void startGame() {
@@ -38,10 +43,11 @@ public class GameController {
         timer.start(60); // 60 seconds for survival mode
 
         for (Question question : questions) {
-            ui.displayQuestion(question);
+            currentQuestion = question;
+            ui.displayQuestion(currentQuestion);
             String userAnswer = ui.getUserInput();
 
-            if (validateAnswer(question, userAnswer)) {
+            if (validateAnswer(currentQuestion, userAnswer)) {
                 score++;
                 streak++;
                 ui.showCorrectAnswerFeedback();
@@ -56,10 +62,12 @@ public class GameController {
             }
         }
 
+
         ui.showGameCompletedScreen(score, streak);
     }
 
     private boolean validateAnswer(Question question, String userAnswer) {
         return question.getCorrectAnswer().equalsIgnoreCase(userAnswer);
     }
+
 }

@@ -1,5 +1,6 @@
 package org.istqbinsider.android;
 
+import org.istqbinsider.controller.GameController;
 import org.istqbinsider.ui.UI;
 import org.istqbinsider.model.Question;
 //import android.content.Context;
@@ -18,10 +19,12 @@ public class AndroidUI implements UI {
     private TextView questionTextView;
     private Button[] optionButtons;
     private Button startSurvivalModeButton;
+    private GameController gameController;
 
 
-    public AndroidUI(Activity activity) {
+    public AndroidUI(Activity activity, GameController gameController) {
         this.activity = activity;
+        this.gameController = gameController;
         initializeUI();
     }
     private void initializeUI() {
@@ -44,7 +47,7 @@ public class AndroidUI implements UI {
                 button.setVisibility(View.GONE);
             }
             startSurvivalModeButton.setOnClickListener(v -> {
-                // Call startSurvivalMode() in GameController
+                gameController.startSurvivalMode();
             });
         });
     }

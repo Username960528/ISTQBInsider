@@ -9,8 +9,9 @@ import org.istqbinsider.util.XMLParser;
 public class MCQApplication {
     public static void main(String[] args) {
         UI ui = new ConsoleUI();
-        QuestionLoader questionLoader = new XMLParser(); // Assuming XMLParser implements QuestionLoader
-        GameController gameController = new GameController(ui, questionLoader);
+        QuestionLoader questionLoader = new XMLParser(); // XMLParses реализует questionloader
+        GameController gameController = new GameController(questionLoader);
+        gameController.setUI(ui);
         gameController.startGame();
         gameController.startSurvivalMode();
     }

@@ -22,23 +22,18 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        UI androidUI = new AndroidUI(this);
         AndroidQuestionLoader questionLoader = new AndroidQuestionLoader(this);
-        gameController = new GameController(androidUI, questionLoader);
+        gameController = new GameController(questionLoader);
+        androidUI = new AndroidUI(this, gameController);
+        gameController.setUI(androidUI);
 
         Button startSurvivalModeButton = findViewById(R.id.startSurvivalModeButton);
         startSurvivalModeButton.setOnClickListener(v -> {
             Log.d(TAG, "Start Survival Mode button clicked");
-            startGameOnNewThread();
+            gameController.startSurvivalMode();
         });
 
         gameController.startGame();
     }
-
-    private void startGameOnNewThread() {
-        new Thread(() -> {
-            Log.d(TAG, "Starting Survival Mode on new thread");
-            gameController.startSurvivalMode();
-        }).start();
-    }
 }
+
