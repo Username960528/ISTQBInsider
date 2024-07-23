@@ -21,6 +21,10 @@ public class XMLParser implements QuestionLoader {
     public List<Question> parseQuestionsFromFile(String filename) {
         try {
             InputStream inputStream = getClass().getResourceAsStream("/" + filename);
+            if (inputStream == null) {
+                System.out.println("Failed to load resource: " + filename);
+                return new ArrayList<>();
+            }
             return parseQuestions(inputStream);
         } catch (Exception e) {
             e.printStackTrace();
@@ -28,27 +32,33 @@ public class XMLParser implements QuestionLoader {
         }
     }
 
+
     public List<Question> parseQuestions(InputStream inputStream) throws Exception {
         List<Question> questions = new ArrayList<>();
-        DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
-        DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
-        Document doc = dBuilder.parse(inputStream);
-        doc.getDocumentElement().normalize();
+        try {
+            DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
+            DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
+            Document doc = dBuilder.parse(inputStream);
+            doc.getDocumentElement().normalize();
 
-        NodeList nList = doc.getElementsByTagName("question");
-        for (int temp = 0; temp < nList.getLength(); temp++) {
-            Node nNode = nList.item(temp);
-            if (nNode.getNodeType() == Node.ELEMENT_NODE) {
-                Element eElement = (Element) nNode;
-                String text = eElement.getElementsByTagName("text").item(0).getTextContent();
-                String correctAnswer = eElement.getElementsByTagName("correct_answer").item(0).getTextContent();
-                List<String> options = new ArrayList<>();
-                NodeList optionNodes = eElement.getElementsByTagName("option");
-                for (int i = 0; i < optionNodes.getLength(); i++) {
-                    options.add(optionNodes.item(i).getTextContent());
+            NodeList nList = doc.getElementsByTagName("question");
+            for (int temp = 0; temp < nList.getLength(); temp++) {
+                Node nNode = nList.item(temp);
+                if (nNode.getNodeType() == Node.ELEMENT_NODE) {
+                    Element eElement = (Element) nNode;
+                    String text = eElement.getElementsByTagName("questionName").item(0).getTextContent();
+                    String correctAnswer = eElement.getElementsByTagName("answer").item(0).getTextContent();
+                    List<String> options = new ArrayList<>();
+                    options.add(eElement.getElementsByTagName("optionA").item(0).getTextContent());
+                    options.add(eElement.getElementsByTagName("optionB").item(0).getTextContent());
+                    options.add(eElement.getElementsByTagName("optionC").item(0).getTextContent());
+                    options.add(eElement.getElementsByTagName("optionD").item(0).getTextContent());
+                    questions.add(new Question(text, options, correctAnswer));
                 }
-                questions.add(new Question(text, options, correctAnswer));
             }
+        } catch (Exception e) {
+            e.printStackTrace();
+            throw e; // Rethrow to be caught in AndroidQuestionLoader
         }
         return questions;
     }
