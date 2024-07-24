@@ -17,16 +17,14 @@ public class GameController {
     private Question currentQuestion;
 
     public GameController(QuestionLoader questionLoader) {
-
         this.questionLoader = questionLoader;
         this.questions = questionLoader.loadQuestions();
         timer = new Timer();
     }
+
     public void setUI(UI ui) {
         this.ui = ui;
     }
-
-
 
     public void startGame() {
         ui.showWelcomeScreen();
@@ -62,12 +60,10 @@ public class GameController {
             }
         }
 
-
         ui.showGameCompletedScreen(score, streak);
     }
 
     private boolean validateAnswer(Question question, String userAnswer) {
         return question.getCorrectAnswer().equalsIgnoreCase(userAnswer);
     }
-
 }
